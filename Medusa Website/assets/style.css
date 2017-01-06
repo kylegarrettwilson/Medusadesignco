@@ -1,6 +1,7 @@
 
 /* Image size must be 1103 X 1000 px with white on each side*/
-body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica;background-color: black; -webkit-font-smoothing:antialiased;}
+body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica;background-color: black; -webkit-font-smoothing:antialiased; max-width: 100%;
+	overflow-x: hidden;}
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
@@ -68,7 +69,6 @@ p{color: white; font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 
 
-
 /*banner*/
 .banner{position: relative;}
 .banner .caption{position: absolute;top: 0;left:0; right: 0; bottom: 0;background:rgba(0,0,0,0.4); }
@@ -99,6 +99,11 @@ p{color: white; font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 #menu{
 	margin-top: 600px;
+}
+
+
+#me{
+	margin-top: 100px;
 }
 
 
