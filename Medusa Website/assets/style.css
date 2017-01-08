@@ -63,6 +63,11 @@ p{color: white; font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	list-style-type: none;
 }
 
+.contact ul>li{
+	margin-top: 10px;
+	font-size: 1.2em;
+}
+
 
 
 
@@ -187,8 +192,24 @@ p{color: white; font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 
 
-.footer{background-color: #111; color: #fff; font-size: 1em;color: #aaa;}
+.footer{background-color: #111; color: #fff; font-size: 1em; color: #aaa;}
 .footer a{color: #aaa;margin: 0 1em; }
+
+
+.footer ul>li{
+	font-size: 1.2em;
+}
+
+
+.footer p{
+	font-size: 1.2em;
+}
+
+
+
+
+
+
 
 .gototop{position: fixed;bottom: 20px; right: 20px;background: rgba(0,0,0,0.5);padding: 10px;color: #fff;}
 .gototop i{line-height: 0.5em;}
