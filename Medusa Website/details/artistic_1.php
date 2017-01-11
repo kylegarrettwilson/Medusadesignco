@@ -161,9 +161,9 @@
 
 
 
-<div id="designs" class="spacer">
+<div id="designs" class="">
     <!--Contact Starts-->
-    <div class="container center">
+    <div class="">
 
 
 

@@ -1,3 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Medusa Design Co.</title>
+
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+
+    <!-- font awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="../assets/animate/animate.css" />
+    <link rel="stylesheet" href="../assets/animate/set.css" />
+
+
+
+
+    <!-- gallery -->
+    <link rel="stylesheet" href="../assets/gallery/blueimp-gallery.min.css">
+
+
+
+    <link rel="stylesheet" href="../assets/style.css">
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
 
 
 <?php
@@ -6,7 +44,7 @@
 
 
 
-  echo "<div id=\"retain\">";
+  echo "<div id=\"retain\" class=\"center-block container\">" ;
 
 
 
@@ -75,8 +113,7 @@
                 </tr>
 
             </table>
-        </div>
-    </div>";
+        </div>";
 
 
 
@@ -183,7 +220,7 @@
     </div>";
 
 
-
+    echo "</div>";
 
 
 
