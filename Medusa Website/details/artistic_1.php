@@ -74,7 +74,7 @@
                 <div class="navbar-collapse  collapse">
                     <ul class="nav navbar-nav navbar-right scroll">
                         <li class="active"><a href="../index.html">Home</a></li>
-                        <li ><a href="#designs">Designs</a></li>
+                        <li ><a href="#designs">Design Detail</a></li>
                         <li ><a href="../index.html#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -123,19 +123,6 @@
 
 
 
-<!-- Circle Starts -->
-<div id="menu"  class="container spacer about">
-    <h1 class="text-center wowload fadeInUp">Artistic Template Previews</h1><br><br>
-
-</div>
-
-
-
-
-<div id="picture">
-    <img src="../previews/images/artist_one.jpg" alt="Check out the live preview!">
-
-</div>
 
 
 
@@ -145,13 +132,50 @@
 
 
 
-<!-- This is Shopify Button -->
+    <!--   CHANGE THESE TWO -->
 
-<div id="checkout">
 
-    <script type="text/javascript" id='pw_580e85b565331' src="https://app.paywhirl.com/pw.js"></script>
-    <script>paywhirl('widget',{domain:'bootstrap-roadmap' ,uuid:'ec676394-0dba-48fb-b398-b540f0974fee'},'pw_580e85b565331'); </script>
-</div>
+
+
+
+
+    <div id="menu">
+        <img class="center-block" src="../previews/images/artist_one.jpg" alt="Check out the live preview!">
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- This is Shopify Button -->
+
+    <div id="checkout">
+
+        <script type="text/javascript" id='pw_580e85b565331' src="https://app.paywhirl.com/pw.js"></script>
+        <script>paywhirl('widget',{domain:'bootstrap-roadmap' ,uuid:'ec676394-0dba-48fb-b398-b540f0974fee'},'pw_580e85b565331'); </script>
+    </div>
+
+
+
+
+
+
+
+    <!--    CHANGE THESE TWO    -->
+
+
+
+
+
+
+
+
+
 
 
 

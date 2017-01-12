@@ -49,6 +49,10 @@
 
 
 
+    echo  " <div id=\"\"  class=\"container text-uppercase\">
+            <h1 class=\"text-center wowload fadeInUp\">Aerial Perspective</h1><br><br>
+        
+        </div>";
 
 
 
@@ -67,8 +71,8 @@
 
 
 
-       echo "<h2>Website Attributes</h2>
-        <p>These are the technical details associated with this website.</p>
+       echo "<h2 class='text-center'>Website Attributes</h2>
+        <p class='text-center'>These are the technical details associated with this website.</p>
         <div class=\"table-responsive\">
             <table class=\"table\">
                 <tr>
@@ -138,8 +142,12 @@
        echo "<section>";
 
 
-           echo "<h1>Item Details<a class=\"btn btn-primary btn-lg\" href=\"\">Live
-                    Preview</a></h1>
+           echo "<h1 class='text-center' style='margin-top: 150px;'>Design Details</h1>
+                    
+                    <h1><a class=\"btn btn-lg btn-info center-block\" href=\"#\">Live Preview</a></h1>
+                    <h1><a class=\"btn btn-lg btn-info center-block\" href=\"#\">Personalized Construction</a></h1>
+                    
+                    
 
             <article>
                 <p>
@@ -156,9 +164,8 @@
                     the user quickly find the information they are wanting.  At BRM, we aim to ensure that the content of
                     your website is displayed in a neat and orderly fashion, making it both appealing and easy to gather
                     needed information for the customer.
-                    <a href=\"edison/index.html\">HERE</a> is the Roadmap that you will receive a link to after purchase.
-                    Don't have a logo? No problem! Let us design a custom logo for your business! Click
-                    <a class='activate_modal' name='second_window' href='#'>HERE</a> to learn more!
+                    <a href=\"edison/index.html\"><b>HERE</a> is the Roadmap that you will receive a link to after purchase.</b>
+         
                 </p>
 
 
@@ -166,7 +173,7 @@
 
 
             <div id=\"usability\">
-                <h2>Usability Test Results</h2>
+                <h2 class='text-center'>Usability Test Results</h2>
 
                 <article>
                     <p>
@@ -208,6 +215,118 @@
                     </table>
                 </div>
             </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- Circle Starts -->
+    <div id=\"me\"  class=\"container spacer about\">
+        <hr>
+        <h2 class=\"text-center wowload fadeInUp\">How It Works</h2>
+        <div class=\"row\">
+            <div class=\"col-sm-6 wowload fadeInLeft\">
+
+                <h4><i class=\"fa fa-arrow-right\"></i> Step One </h4>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu odio ullamcorper
+                    ante faucibus venenatis.Aenean varius vulputate eros nec efficitur. Aliquam erat
+                    volutpat. Ut non diam odio.
+                </p>
+
+
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                </p>
+
+
+            </div>
+
+
+
+
+
+            <div class=\"col-sm-6 wowload fadeInRight\">
+
+
+                <h4><i class=\"fa fa-arrow-right\"></i> Step Two </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu odio ullamcorper
+                    ante faucibus venenatis.Aenean varius vulputate eros nec efficitur. Aliquam erat
+                    volutpat. Ut non diam odio.
+                </p>
+
+
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                </p>
+
+
+
+            </div>
+
+
+            <div class=\"col-sm-6 wowload fadeInLeft\">
+
+                <h4><i class=\"fa fa-arrow-right\"></i> Step Three </h4>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu odio ullamcorper
+                    ante faucibus venenatis.Aenean varius vulputate eros nec efficitur. Aliquam erat
+                    volutpat. Ut non diam odio.
+                </p>
+
+
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                </p>
+
+
+            </div>
+
+
+
+
+
+            <div class=\"col-sm-6 wowload fadeInRight\">
+
+
+                <h4><i class=\"fa fa-arrow-right\"></i> Step Four </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu odio ullamcorper
+                    ante faucibus venenatis.Aenean varius vulputate eros nec efficitur. Aliquam erat
+                    volutpat. Ut non diam odio.
+                </p>
+
+
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                </p>
+
+
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
 
 
 
@@ -216,6 +335,11 @@
 
 
         </section>
+        
+        
+        
+      
+        
 
     </div>";
 

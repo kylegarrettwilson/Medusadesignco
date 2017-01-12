@@ -1,0 +1,53 @@
+table{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+
+.table{
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+article{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.btn{
+    width: 40%;
+    border-radius: 10px;
+}
+
+
+
+.about{
+    margin-bottom: 300px;
+}
+
+
+
+#retain{
+    margin-top: 100px;
+}
+
+
+
+#menu{
+    margin-bottom: 80px;
+}
+
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+p{
+    font-size: 1.2em;
+    font-weight: 400;
+}
