@@ -59,7 +59,7 @@
                         <!-- Logo Starts -->
 
                         <!-- logo must be 228 X 54 px -->
-                        <a class="navbar-brand" href="#home"><img src="../images/mini_logo.png" alt="logo"></a>
+                        <a class="navbar-brand" href="../index.html"><img src="../images/mini_logo.png" alt="logo"></a>
                         <!-- #Logo Ends -->
 
 
@@ -77,7 +77,6 @@
                     <div class="navbar-collapse  collapse">
                         <ul class="nav navbar-nav navbar-right scroll">
                             <li class="active"><a href="../index.html">Home</a></li>
-                            <li ><a href="#designs">Designs</a></li>
                             <li ><a href="../index.html#contact">Contact</a></li>
                         </ul>
                     </div>
@@ -104,9 +103,8 @@
         <div class="banner">
 
 
-            <video autoplay loop muted poster="../images/header.jpg" id="background">
-                <source src="../images/medusa.mp4" type="video/mp4">
-            </video>
+            <!-- image must be 1900 by 900 px -->
+            <img src="images/custom_header.jpg" alt="banner" class="img-responsive">
 
 
             <div class="caption">
@@ -128,9 +126,128 @@
 
     <!-- Circle Starts -->
     <div id="menu"  class="container spacer about">
-        <h1 class="text-center wowload fadeInUp">Artistic Template Previews</h1><br><br>
+        <h1 class="text-center">Custom Website Development</h1><br><br>
 
     </div>
+
+
+
+
+
+
+
+
+
+
+    <section id="main">
+
+
+
+
+        <div id="checkout">
+
+            <div data-embed_type="product" data-shop="bootstrap-roadmap.myshopify.com" data-product_name="Custom Website Development" data-product_handle="custom-website" data-has_image="true" data-display_size="compact" data-redirect_to="checkout" data-buy_button_text="Buy now" data-buy_button_out_of_stock_text="Out of Stock" data-buy_button_product_unavailable_text="Unavailable" data-button_background_color="7db461" data-button_text_color="ffffff" data-product_modal="false" data-product_title_color="000000" data-next_page_button_text="Next page"></div>
+            <script type="text/javascript">
+                document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');
+            </script>
+            <noscript><a href="https://bootstrap-roadmap.myshopify.com/cart/25516604099:1" target="_blank">Buy Custom Website Development</a></noscript>
+
+        </div>
+
+
+
+
+        <article>
+
+            <h3>Don't see a template that fits just right? Not a problem! Lets Collab!</h3><br>
+
+            <p>
+                BRM is first and foremost a company of web developers who simply love to create stunning website designs.
+                If you do not see a template that fits your needs, we do offer a custom coding option in which we create
+                the website together with you. At this point in time, we do not offer any e-commerce websites, however
+                that will be a service in the near future. So, if you need a webpage that operates on an e-commerce basis,
+                please seek development elsewhere.
+            </p>
+
+            <p>
+                We are happy to create business websites that operate as a source of
+                information for your customer. Want a video to automatically play as the website is loaded on the browser?
+                We can do that! Need a website that is multiple pages? We can do that! <strong> We strongly recommend
+                    before buying this package that you call us at (541) 788-7601 or email us <a
+                        href="mailto:medusadesignco@gmail.com">HERE</a> and let us know what design you have
+                    in mind.</strong>
+            </p>
+
+
+
+
+        </article>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <div id="contact" class="spacer">
+        <!--Contact Starts-->
+        <div class="container contactform center">
+            <h2 class="text-center  wowload fadeInUp">Tell Us Your Idea!</h2>
+            <div class="row wowload fadeInLeftBig">
+                <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+
+
+                    <form method="post" name="contact_form" action="../php/mail_handler.php">
+
+
+                        <div class="form-group">
+                            <input type="text" name="first_name" class="form-control" placeholder="First Name">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" name="last_name"  class="form-control" placeholder="Last Name">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" name="email"  class="form-control" placeholder="Email">
+                        </div>
+
+
+                        <div class="form-group">
+                            <textarea rows="5" name="message"  class="form-control" placeholder="Message"></textarea>
+                        </div>
+
+
+
+                        <input type="submit" class="btn btn-primary" name="submit" value="Submit">
+
+
+
+                    </form>
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
 
 
 

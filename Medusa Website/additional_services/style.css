@@ -1,0 +1,49 @@
+#menu{
+    margin-top: 0;
+}
+
+
+
+#main{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+#checkout{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+p{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+
+#contact{
+    padding-bottom: 300px;
+}
+
+
+#main ul{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 15px;
+
+}
+
+#main li{
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
