@@ -145,22 +145,11 @@
 
 
 
-    <div id="checkout">
 
-        <div data-embed_type="product" data-shop="bootstrap-roadmap.myshopify.com" data-product_name="Logo Design" data-product_handle="logo-design" data-has_image="true" data-display_size="compact" data-redirect_to="checkout" data-buy_button_text="Buy now" data-buy_button_out_of_stock_text="Out of Stock" data-buy_button_product_unavailable_text="Unavailable" data-button_background_color="7db461" data-button_text_color="ffffff" data-product_modal="false" data-product_title_color="000000" data-next_page_button_text="Next page"></div>
-        <script type="text/javascript">
-            document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');
-        </script>
-        <noscript><a href="https://bootstrap-roadmap.myshopify.com/cart/16909570179:1" target="_blank">Buy Logo Design</a></noscript>
-
-    </div>
+    <h2>Need to change something on your BRM website?</h2><br>
 
 
-
-    <h1>Need to change something on your BRM website?</h1><br><br>
-
-
-    <h1><a style="text-decoration: none" class="fa fa-envelope fa-1x" href="mailto:bootstraproadmapsales@gmail.com"> Email us </a> with what you need!</h1><br>
+    <h2><a style="text-decoration: none" class="fa fa-envelope fa-1x" href="mailto:bootstraproadmapsales@gmail.com"> Email us </a> with what you need!</h2><br>
 
 
 

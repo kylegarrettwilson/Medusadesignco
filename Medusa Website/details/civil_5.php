@@ -142,6 +142,8 @@
     <div id="menu">
         <img class="center-block" src="../previews/images/civ_five.jpg" alt="Check out the live preview!">
 
+        <br><h1><a class="btn btn-lg btn-info center-block" href="../live/civilized_life/template_five/index.html">Live Preview</a></h1>
+
     </div>
 
 

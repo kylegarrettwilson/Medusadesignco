@@ -142,6 +142,8 @@
     <div id="menu">
         <img class="center-block" src="../previews/images/design_one.jpg" alt="Check out the live preview!">
 
+        <br><h1><a class="btn btn-lg btn-info center-block" href="../live/designer/template_one/index.php">Live Preview</a></h1>
+
     </div>
 
 

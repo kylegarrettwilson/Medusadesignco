@@ -142,6 +142,8 @@
     <div id="menu">
         <img class="center-block" src="../previews/images/limelight_two.jpg" alt="Check out the live preview!">
 
+        <br><h1><a class="btn btn-lg btn-info center-block" href="../live/limelight/template_two/index.html">Live Preview</a></h1>
+
     </div>
 
 

@@ -104,7 +104,7 @@
 
 
         <!-- image must be 1900 by 900 px -->
-        <img src="images/custom_header.jpg" alt="banner" class="img-responsive">
+        <img src="images/seo_header.jpg" alt="banner" class="img-responsive">
 
 
         <div class="caption">
@@ -126,7 +126,7 @@
 
 <!-- Circle Starts -->
 <div id="menu"  class="container spacer about">
-    <h1 class="text-center">Custom Website Development</h1><br><br>
+    <h1 class="text-center">Search Engine Optimization</h1><br><br>
 
 </div>
 
@@ -144,39 +144,32 @@
 
 
 
-    <div id="checkout">
-
-        <div data-embed_type="product" data-shop="bootstrap-roadmap.myshopify.com" data-product_name="Custom Website Development" data-product_handle="custom-website" data-has_image="true" data-display_size="compact" data-redirect_to="checkout" data-buy_button_text="Buy now" data-buy_button_out_of_stock_text="Out of Stock" data-buy_button_product_unavailable_text="Unavailable" data-button_background_color="7db461" data-button_text_color="ffffff" data-product_modal="false" data-product_title_color="000000" data-next_page_button_text="Next page"></div>
-        <script type="text/javascript">
-            document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');
-        </script>
-        <noscript><a href="https://bootstrap-roadmap.myshopify.com/cart/25516604099:1" target="_blank">Buy Custom Website Development</a></noscript>
-
-    </div>
-
 
 
 
     <article>
 
-        <h3>Don't see a template that fits just right? Not a problem! Lets Collab!</h3><br>
+        <h3>Want customers to find you?</h3>
 
         <p>
-            BRM is first and foremost a company of web developers who simply love to create stunning website designs.
-            If you do not see a template that fits your needs, we do offer a custom coding option in which we create
-            the website together with you. At this point in time, we do not offer any e-commerce websites, however
-            that will be a service in the near future. So, if you need a webpage that operates on an e-commerce basis,
-            please seek development elsewhere.
+            Search Engine Optimization, commonly referred to as SEO, is the practice of manipulating a website’s
+            code in such a way that it is more apt to be recognized by a search engine.  This is valuable to any
+            business because the main passage customers take to find your site is through a search engine, such as
+            Google. SEO is more of an art form than a science and requires looking at large amounts of data about
+            your business’s location and its competitors.
         </p>
 
         <p>
-            We are happy to create business websites that operate as a source of
-            information for your customer. Want a video to automatically play as the website is loaded on the browser?
-            We can do that! Need a website that is multiple pages? We can do that! <strong> We strongly recommend
+            The SEO discipline that BRM offers in this package is
+            strictly code based; meaning we will write your BRM code is such a way that it will have a higher
+            probability of a search engine finding it quickly. Is this worth it? Research shows that most users
+            do not click on search results after the first page. This is why it is important to try and fight
+            for the first results page positioning. <strong> We strongly recommend
                 before buying this package that you call us at (541) 788-7601 or email us <a
                     href="mailto:medusadesignco@gmail.com">HERE</a> and let us know what design you have
                 in mind.</strong>
         </p>
+
 
 
 

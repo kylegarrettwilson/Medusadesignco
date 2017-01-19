@@ -144,7 +144,7 @@
 
            echo "<h1 class='text-center' style='margin-top: 150px;'>Design Details</h1>
                     
-                    <h1><a class=\"btn btn-lg btn-info center-block\" href=\"#\">Live Preview</a></h1>
+                  
                     <h1><a class=\"btn btn-lg btn-info center-block\" href=\"#\">Personalized Construction</a></h1>
                     
                     
