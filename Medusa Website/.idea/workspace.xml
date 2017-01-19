@@ -34,19 +34,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/additional_services/style.css" />
-        <option value="$PROJECT_DIR$/additional_services/maintenance.php" />
-        <option value="$PROJECT_DIR$/additional_services/seo.php" />
-        <option value="$PROJECT_DIR$/details/filler.php" />
-        <option value="$PROJECT_DIR$/details/artistic_1.php" />
-        <option value="$PROJECT_DIR$/details/artistic_2.php" />
-        <option value="$PROJECT_DIR$/details/artistic_3.php" />
-        <option value="$PROJECT_DIR$/details/artistic_4.php" />
-        <option value="$PROJECT_DIR$/details/business_1.php" />
-        <option value="$PROJECT_DIR$/details/business_2.php" />
-        <option value="$PROJECT_DIR$/details/business_3.php" />
-        <option value="$PROJECT_DIR$/details/business_4.php" />
-        <option value="$PROJECT_DIR$/details/business_5.php" />
         <option value="$PROJECT_DIR$/details/child_1.php" />
         <option value="$PROJECT_DIR$/details/child_2.php" />
         <option value="$PROJECT_DIR$/details/child_3.php" />
@@ -85,6 +72,19 @@
         <option value="$PROJECT_DIR$/details/limelight_2.php" />
         <option value="$PROJECT_DIR$/details/limelight_3.php" />
         <option value="$PROJECT_DIR$/details/limelight_4.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/legal.php" />
+        <option value="$PROJECT_DIR$/previews/blog.html" />
+        <option value="$PROJECT_DIR$/previews/business.html" />
+        <option value="$PROJECT_DIR$/previews/childcare.html" />
+        <option value="$PROJECT_DIR$/previews/civilizedlife.html" />
+        <option value="$PROJECT_DIR$/previews/culinary.html" />
+        <option value="$PROJECT_DIR$/previews/ecommerce.html" />
+        <option value="$PROJECT_DIR$/previews/designer.html" />
+        <option value="$PROJECT_DIR$/previews/healthcare.html" />
+        <option value="$PROJECT_DIR$/previews/homecare.html" />
+        <option value="$PROJECT_DIR$/previews/legal.html" />
+        <option value="$PROJECT_DIR$/previews/limelight.html" />
       </list>
     </option>
   </component>
@@ -153,7 +153,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/projectBox/bootstrapRoadmap/additional_services/seo/index.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projectBox/bootstrapRoadmap/legal/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -204,12 +204,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483573618005</updated>
       <workItem from="1483573623453" duration="17015000" />
-      <workItem from="1484115818452" duration="23839000" />
+      <workItem from="1484115818452" duration="25212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40854000" />
+    <option name="totallyTimeSpent" value="42227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="23" width="1674" height="964" extended-state="1" />
@@ -255,185 +255,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/projectBox/bootstrapRoadmap/additional_services/seo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/additional_services/seo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/additional_services/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/filler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
-          <folding>
-            <marker date="1484805876000" expanded="true" signature="1476:1587" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="1615:2252" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="1631:2233" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="2459:3820" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="2495:3805" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="2516:2629" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="2650:2755" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="2776:2879" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="2900:2996" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="3017:3291" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="3094:3269" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="3312:3413" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="3434:3535" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="3556:3783" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="3616:3761" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="3955:3973" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="4214:5983" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="4234:5958" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="6020:8268" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="6115:7283" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="6139:7256" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="7338:8249" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="7382:8226" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="7414:7797" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="7443:7764" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="7829:8197" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="7858:8164" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="8487:11822" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="8597:11811" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="8653:9391" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="8746:9021" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="9043:9370" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="9453:10192" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="9546:9821" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="9843:10170" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="10250:10990" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="10345:10620" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="10642:10969" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="11052:11792" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="11146:11421" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="11443:11770" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="12012:13356" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="12063:13345" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="12101:13330" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="12376:12832" placeholder="..." />
-            <marker date="1484805876000" expanded="false" signature="12441:12461" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="12544:12692" placeholder="..." />
-            <marker date="1484805876000" expanded="false" signature="12589:12609" placeholder="..." />
-            <marker date="1484805876000" expanded="true" signature="12696:12810" placeholder="..." />
-            <marker date="1484805876000" expanded="false" signature="12736:12756" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/artistic_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/artistic_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/artistic_3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/artistic_4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/business_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="144" column="66" selection-start-line="144" selection-start-column="66" selection-end-line="144" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/business_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/business_3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="146" column="10" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/business_4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/business_5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/child_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/child_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/child_3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/details/child_4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -710,6 +531,134 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/additional_services/custom_development.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="831" column="0" selection-start-line="831" selection-start-column="0" selection-end-line="831" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projectBox/bootstrapRoadmap/legal/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/legal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/artistic_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/previews/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/previews/business.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/previews/childcare.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/previews/civilizedlife.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/previews/culinary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/previews/ecommerce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/previews/designer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/previews/healthcare.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/previews/homecare.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/previews/legal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/previews/limelight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding />
         </state>
       </provider>
