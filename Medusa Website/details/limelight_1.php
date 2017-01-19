@@ -56,7 +56,7 @@
                     <!-- Logo Starts -->
 
                     <!-- logo must be 228 X 54 px -->
-                    <a class="navbar-brand" href="#home"><img src="../images/mini_logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="../index.html"><img src="../images/mini_logo.png" alt="logo"></a>
                     <!-- #Logo Ends -->
 
 
