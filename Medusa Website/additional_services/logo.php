@@ -293,7 +293,7 @@
             <ul class="list-unstyled">
                 <li><i class="fa fa-phone fa-1x" style="padding-bottom:15px;"></i><a href="tel:541-788-7601">(541) 788 7601</a></li>
                 <li><i class="fa fa-envelope-o fa-1x" style="padding-bottom:15px;"></i><a href="mailto:medusadesignco@gmail.com">Email Us</a>
-                <li><i class="fa fa-gavel fa-1x" style="padding-bottom:15px;"></i><a href="">Legal</a>
+                <li><i class="fa fa-gavel fa-1x" style="padding-bottom:15px;"></i><a href="../legal.php">Legal</a>
                 </li>
             </ul>
             <br>
