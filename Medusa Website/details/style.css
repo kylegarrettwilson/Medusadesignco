@@ -1,5 +1,26 @@
+body{
+   background-color: white;
+}
+
+
+p, h1, h2, h3{
+    color: black;
+}
+
+.footer{
+    background-color: rgba(98, 104, 110, 0.2);
+}
+
+.footer a{
+    color: black;
+}
+
+.footer li{
+    color: black;
+}
+
+
 table{
-    color: white;
     font-size: 1.2em;
     font-weight: 400;
 }

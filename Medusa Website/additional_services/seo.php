@@ -149,6 +149,9 @@
 
     <article>
 
+
+        <h2> <i class="fa fa-dollar fa-1x"></i>75/hr</h2>
+
         <h3>Want customers to find you?</h3>
 
         <p>

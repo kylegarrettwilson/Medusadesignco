@@ -146,11 +146,129 @@
 
     <div id="checkout">
 
-        <div data-embed_type="product" data-shop="bootstrap-roadmap.myshopify.com" data-product_name="Logo Design" data-product_handle="logo-design" data-has_image="true" data-display_size="compact" data-redirect_to="checkout" data-buy_button_text="Buy now" data-buy_button_out_of_stock_text="Out of Stock" data-buy_button_product_unavailable_text="Unavailable" data-button_background_color="7db461" data-button_text_color="ffffff" data-product_modal="false" data-product_title_color="000000" data-next_page_button_text="Next page"></div>
+        <div id='product-component-e0b60cd2f33'></div>
         <script type="text/javascript">
-            document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');
+            /*<![CDATA[*/
+
+            (function () {
+                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                if (window.ShopifyBuy) {
+                    if (window.ShopifyBuy.UI) {
+                        ShopifyBuyInit();
+                    } else {
+                        loadScript();
+                    }
+                } else {
+                    loadScript();
+                }
+
+                function loadScript() {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = scriptURL;
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                    script.onload = ShopifyBuyInit;
+                }
+
+                function ShopifyBuyInit() {
+                    var client = ShopifyBuy.buildClient({
+                        domain: 'bootstrap-roadmap.myshopify.com',
+                        apiKey: '206f10a1959906673748af2d2a5c3841',
+                        appId: '6',
+                    });
+
+                    ShopifyBuy.UI.onReady(client).then(function (ui) {
+                        ui.createComponent('product', {
+                            id: [9325569603],
+                            node: document.getElementById('product-component-e0b60cd2f33'),
+                            moneyFormat: '%24%7B%7Bamount%7D%7D',
+                            options: {
+                                "product": {
+                                    "buttonDestination": "checkout",
+                                    "variantId": "all",
+                                    "contents": {
+                                        "variantTitle": false,
+                                        "description": false,
+                                        "buttonWithQuantity": false,
+                                        "quantity": false
+                                    },
+                                    "text": {
+                                        "button": "BUY NOW"
+                                    },
+                                    "styles": {
+                                        "product": {
+                                            "@media (min-width: 601px)": {
+                                                "max-width": "100%",
+                                                "margin-left": "0",
+                                                "margin-bottom": "50px"
+                                            }
+                                        },
+                                        "button": {
+                                            "font-size": "15px"
+                                        },
+                                        "title": {
+                                            "color": "#ffffff"
+                                        },
+                                        "price": {
+                                            "color": "#ffffff"
+                                        },
+                                        "compareAt": {
+                                            "font-size": "12px",
+                                            "color": "#ffffff"
+                                        }
+                                    }
+                                },
+                                "cart": {
+                                    "contents": {
+                                        "button": true
+                                    },
+                                    "text": {
+                                        "total": "Total"
+                                    },
+                                    "styles": {
+                                        "footer": {
+                                            "background-color": "#ffffff"
+                                        }
+                                    }
+                                },
+                                "modalProduct": {
+                                    "contents": {
+                                        "variantTitle": false,
+                                        "buttonWithQuantity": false,
+                                        "quantity": false
+                                    },
+                                    "styles": {
+                                        "product": {
+                                            "@media (min-width: 601px)": {
+                                                "max-width": "100%",
+                                                "margin-left": "20px",
+                                                "margin-bottom": "50px"
+                                            }
+                                        },
+                                        "button": {
+                                            "font-size": "15px"
+                                        },
+                                        "price": {
+                                            "font-size": "14px"
+                                        }
+                                    }
+                                },
+                                "productSet": {
+                                    "styles": {
+                                        "products": {
+                                            "@media (min-width: 601px)": {
+                                                "margin-left": "-20px"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        });
+                    });
+                }
+            })();
+            /*]]>*/
         </script>
-        <noscript><a href="https://bootstrap-roadmap.myshopify.com/cart/16909570179:1" target="_blank">Buy Logo Design</a></noscript>
 
     </div>
 

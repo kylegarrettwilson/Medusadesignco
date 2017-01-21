@@ -145,7 +145,7 @@
            echo "<h1 class='text-center' style='margin-top: 150px;'>Design Details</h1>
                     
                   
-                    <h1><a class=\"btn btn-lg btn-info center-block\" href=\"../edison/edison.html\">Personalized Construction</a></h1>
+                    <h1><a style='margin-top: 15px; margin-bottom: 15px;' class=\"btn btn-lg btn-info center-block\" href=\"../edison/edison.html\">Personalized Construction</a></h1>
                     
                     
 
@@ -389,7 +389,7 @@
 
                 <div class=\"wowload fadeInUp social\"><a href=\"https://www.facebook.com/bootstraproadmap/\"><i class=\"fa fa-facebook fa-2x\"></i></a> <a href=\"https://www.instagram.com/bootstrap_roadmap/\"><i class=\"fa fa-instagram fa-2x\"></i></a> <a href=\"https://twitter.com/BootstrapRdMap?lang=en\"><i class=\"fa fa-twitter fa-2x\"></i></a> </div><br>
 
-                <div class=\"text-center copyright\">Medusa Design Co. Copyright 2016</div>
+                <div style='color: black;' class=\"text-center copyright\">Medusa Design Co. Copyright 2016</div>
 
             </div>
         </div>

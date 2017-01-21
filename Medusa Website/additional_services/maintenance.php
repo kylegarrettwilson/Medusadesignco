@@ -146,10 +146,10 @@
 
 
 
-    <h2>Need to change something on your BRM website?</h2><br>
+    <h2>Need to change something on your BRM website? <a style="text-decoration: none" class="fa fa-envelope fa-1x" href="mailto:bootstraproadmapsales@gmail.com"> Email us </a> with what you need!</h2><br>
 
 
-    <h2><a style="text-decoration: none" class="fa fa-envelope fa-1x" href="mailto:bootstraproadmapsales@gmail.com"> Email us </a> with what you need!</h2><br>
+    <h2> <i class="fa fa-dollar fa-1x"></i>75/hr if you are on the <u>Essentials Plan</u></h2>
 
 
 
@@ -178,6 +178,9 @@
         <p>
             Once we have received and reviewed your request, BRM will contact you with a price quote for the maintenance requested and will provide an anticipated project completion timeline for your review.
         </p>
+
+
+        <h3>Enterprise Plan Details</h3>
 
         <p>
             If you are on the <b>Enterprise Plan</b>, monthly maintenance is included. This is for basic tasks that

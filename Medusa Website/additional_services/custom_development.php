@@ -147,7 +147,10 @@
 
         <article>
 
-            <h3>Don't see a template that fits just right? Not a problem! Lets Collab!</h3><br>
+
+            <h2> <i class="fa fa-dollar fa-1x"></i>75/hr</h2>
+
+            <h3>Don't see a template that fits just right? Not a problem! Lets Collaborate!</h3><br>
 
             <p>
                 BRM is first and foremost a company of web developers who simply love to create stunning website designs.
