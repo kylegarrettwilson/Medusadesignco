@@ -142,7 +142,7 @@
     <div id="menu">
         <img class="center-block" src="../previews/images/home_two.jpg" alt="Check out the live preview!">
 
-        <br><h1><a class="btn btn-lg btn-info center-block" href="../live/home_care/template_two/index.html">Live Preview</a></h1>
+        <br><h1><a class="btn btn-lg btn-info center-block" href="../live/home_care/template_two/index.html">Live Example</a></h1>
 
     </div>
 

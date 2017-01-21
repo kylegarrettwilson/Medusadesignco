@@ -145,7 +145,7 @@
         <img class="center-block" src="../previews/images/artist_one.jpg" alt="Check out the live preview!">
 
 
-        <br><h1><a class="btn btn-lg btn-info center-block" href="../live/artistic/template_one/index.html">Live Preview</a></h1>
+        <br><h1><a class="btn btn-lg btn-info center-block" href="../live/artistic/template_one/index.html">Live Example</a></h1>
 
 
     </div>
