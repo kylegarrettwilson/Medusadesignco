@@ -298,6 +298,14 @@ if(isset($_POST['submitted']))
 
 
 
+                <div class='container'>
+                    <label for='message' >What are the focus areas of your business? (eg: organic, family care, business portraits)</label><br>
+                    <input type='text' name='nineteen' id='nineteen' value='<?php echo $formproc->SafeDisplay('nineteen') ?>' /><br/>
+                    <span id='contactus_email_errorloc' class='error'></span>
+                </div>
+
+
+
 
 
 
@@ -333,12 +341,6 @@ if(isset($_POST['submitted']))
                         </div>
 
 
-                        <div class='container'>
-                            <label for='message' >Is there a current corporate style guide and logo that will be used? If so, please upload the files below.</label><br/>
-                            <input type='text' name='six' id='six' value='<?php echo $formproc->SafeDisplay('six') ?>' /><br/>
-                            <span id='contactus_email_errorloc' class='error'></span>
-                        </div>
-
 
 
 
@@ -355,17 +357,59 @@ if(isset($_POST['submitted']))
 
 
                         <div class='container'>
-                            <label for='message' >Will your site use existing marketing content? (eg: art, photos, logo)<br> <br> If yes, please upload your files using the DropBox link provided below. We have included three upload links with this form, but if you have more than three uploads, we ask that you use the DropBox platform to share your files with BRM.</label><br/>
-                            <input type='text' name='eight' id='eight' value='<?php echo $formproc->SafeDisplay('eight') ?>' /><br/>
+                            <label for='message' >Will your site use existing marketing content? (eg: art, photos, logo)</label><br><br>
+
+                            <input type="radio" name="eight" value="<?php echo $formproc->SafeDisplay('eight') ?>"> Yes, I do have existing marketing material that I would like to use.<br>
+                            <input type="radio" name="eight" value="<?php echo $formproc->SafeDisplay('eight') ?>"> No, I do not have existing marketing material.<br>
+                            <input type="radio" name="eight" value="<?php echo $formproc->SafeDisplay('eight') ?>"> I want the developer to call and discuss options about using marketing material.
                             <span id='contactus_email_errorloc' class='error'></span>
+
                         </div>
+
+
+                        <br>
+                        <div class='container'>
+                            <label for='email' >Are you comfortable utilizing stock photos for your website?<br> All stock photos that are incorporated by BRM on your site will be licensed for you at no extra charge.</label><br/>
+
+                            <br>
+                            <input type="radio" name="nine" value="<?php echo $formproc->SafeDisplay('nine') ?>"> Yes, I am comfortable using stock photos.<br>
+                            <input type="radio" name="nine" value="<?php echo $formproc->SafeDisplay('nine') ?>"> No, I do not want to use stock photos.<br>
+                            <input type="radio" name="nine" value="<?php echo $formproc->SafeDisplay('nine') ?>"> I want the developer to call and discuss options about using stock photos
+                            <span id='contactus_email_errorloc' class='error'></span>
+
+
+                        </div>
+
+
+
+                        <br>
+
 
 
                         <div class='container'>
-                            <label for='email' >Are you comfortable with utilizing stock photos for your website? All stock photos that are incorporated by BRM on your site will be licensed for you at no extra charge.</label><br/>
-                            <input type='text' name='nine' id='nine' value='<?php echo $formproc->SafeDisplay('nine') ?>' /><br/>
+                            <label for='message' >Menu</label><br>
+                            <span id='contactus_message_errorloc' class='error'></span> <br>
+
+                            <input type="radio" name="eight" value="<?php echo $formproc->SafeDisplay('eight') ?>"> Yes, I do have existing marketing material that I would like to use.<br>
+                            <input type="radio" name="eight" value="<?php echo $formproc->SafeDisplay('eight') ?>"> No, I do not have existing marketing material.<br>
+                            <input type="radio" name="eight" value="<?php echo $formproc->SafeDisplay('eight') ?>"> I want the developer to call and discuss options about using marketing material.
                             <span id='contactus_email_errorloc' class='error'></span>
+
                         </div>
+
+
+
+                        <br>
+
+
+                        <div class='container'>
+                            <label for='message' >Provide each service you want to showcase on your site and a short description.</label><br/>
+                            <span id='contactus_message_errorloc' class='error'></span>
+                            <textarea rows="10" cols="50" name='eleven' id='eleven'><?php echo $formproc->SafeDisplay('eleven') ?></textarea>
+
+                        </div>
+
+
 
                     </div>
 
@@ -376,30 +420,22 @@ if(isset($_POST['submitted']))
 
 
                         <div class='container'>
-                            <label for='message' >Provide the business description you would include in an "About Us" section:</label><br/>
+                            <label for='message' >Provide the description you would include in an "About Us" section:</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
                             <textarea rows="10" cols="50" name='ten' id='ten'><?php echo $formproc->SafeDisplay('ten') ?></textarea>
                         </div>
 
 
+
+
+
+
                         <br>
+
 
 
                         <div class='container'>
-                            <label for='message' >Provide each service you want to showcase on your site and a short description.</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='eleven' id='eleven'><?php echo $formproc->SafeDisplay('eleven') ?></textarea>
-                        </div>
-
-
-
-                        <br>
-                        <br>
-
-
-                        <div class='container'>
-                            <label for='message' >Provide information to highlight each of your team members on your website (Full name, position, and a short description). <br> <br> If you would like social media links for each team member, please include the URLs associated with each team member's social media page. <br> <br> If you have
-                            a picture of each member, please upload your files using the DropBox link provided below and include a file name that corresponds with the team member's name (eg: last name_first name).</label><br>
+                            <label for='message' >Highlight each of your team members (Full name, position, short description, social media links, picture, etc.)</label><br>
                             <span id='contactus_message_errorloc' class='error'></span>
                             <textarea rows="10" cols="50" name='twelve' id='twelve'><?php echo $formproc->SafeDisplay('twelve') ?></textarea>
                         </div>
@@ -409,8 +445,7 @@ if(isset($_POST['submitted']))
 
 
                         <div class='container'>
-                            <label for='message' >Portfolio or previous work (Full name of work, short description, whatever else you want). This is also a great place for
-                                previous education or certificates that apply towards your business. If you have a picture of each work, please upload your files using the DropBox link provided below and include a file name that corresponds with the work's name.</label><br/>
+                            <label for='message' >Portfolio or previous work, and/or education your would like to showcase (Full name of work or degree, short description, picture, etc.).</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
                             <textarea rows="10" cols="50" name='thirteen' id='thirteen'><?php echo $formproc->SafeDisplay('thirteen') ?></textarea>
                         </div>
@@ -447,11 +482,25 @@ if(isset($_POST['submitted']))
 
 
                         <div class='container'>
-                            <label for='name' >Do you want a photo gallery? (We strongly suggest having a photo gallery to provide visual context of your work, even if it is stock photos) If you are going to provide photos for
-                                the gallery, please upload your files using the DropBox link provided below.</label><br>
-                            <input type='text' name='seventeen' id='seventeen' value='<?php echo $formproc->SafeDisplay('seventeen') ?>' maxlength="50" /><br>
-                            <span id='contactus_name_errorloc' class='error'></span>
+                            <label for='name' >Do you want a photo gallery?</label><br><br>
+
+
+                            <input type="radio" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Yes, I do want a photo gallery<br>
+                            <input type="radio" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> No, I do not want a photo gallery<br>
+                            <input type="radio" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> I want the developer to call and discuss options about using a photo gallery.
+                            <span id='contactus_email_errorloc' class='error'></span>
+
+
                         </div>
+
+
+
+
+
+                        <br>
+
+
+
 
 
 
@@ -462,24 +511,44 @@ if(isset($_POST['submitted']))
                         </div>
 
 
-                        <div class='container'>
-                            <label for='message' >What are the focus areas of your business? (eg: organic, family care, business portraits)</label><br>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='nineteen' id='nineteen'><?php echo $formproc->SafeDisplay('nineteen') ?></textarea>
-                        </div>
 
                         <div class='container'>
-                            <label for='message' >Do you have customer reviews that you want to add? Please provide the names and quotes in the space below.</label><br>
+                            <label for='message' >Do you have customer reviews that you want to add? If so, please provide the names and quotes in the space below.</label><br>
                             <span id='contactus_message_errorloc' class='error'></span>
                             <textarea rows="10" cols="50" name='twenty' id='twenty'><?php echo $formproc->SafeDisplay('twenty') ?></textarea>
                         </div>
 
 
+                        <br>
+
+
                         <div class='container'>
-                            <label for='name' >Do you want a "contact us" form that sends customer inquiries to your business' email?</label><br>
-                            <input type='text' name='twentyone' id='twentyone' value='<?php echo $formproc->SafeDisplay('twentyone') ?>' maxlength="50" /><br>
-                            <span id='contactus_name_errorloc' class='error'></span>
+                            <label for='name' >Do you want a "contact us" form that sends customer inquiries to your business' email?</label><br><br>
+
+                            <input type="radio" name="twentyone" value="<?php echo $formproc->SafeDisplay('twentyone') ?>"> Yes, I do have existing marketing material that I would like to use.<br>
+                            <input type="radio" name="twentyone" value="<?php echo $formproc->SafeDisplay('twentyone') ?>"> No, I do not have existing marketing material.<br>
+                            <input type="radio" name="twentyone" value="<?php echo $formproc->SafeDisplay('twentyone') ?>"> I want the developer to call and discuss options about using marketing material.
+                            <span id='contactus_email_errorloc' class='error'></span>
+
+
                         </div>
+
+
+                    <br>
+
+
+                    <div class='container'>
+                        <label for='message' >Locations</label><br>
+                        <span id='contactus_message_errorloc' class='error'></span>
+                        <textarea rows="10" cols="50" name='twenty' id='twenty'><?php echo $formproc->SafeDisplay('twenty') ?></textarea>
+                    </div>
+
+
+
+
+
+
+
 
 
 
@@ -504,6 +573,13 @@ if(isset($_POST['submitted']))
 
                     <h3 id="button">Closing Thoughts and Requests</h3>
 
+
+
+                        <div class='container'>
+                            <label for='message' >Special requests or development features you would like to add. (Hourly development charge may apply depending on size/complexity of additions)</label><br>
+                            <span id='contactus_message_errorloc' class='error'></span>
+                            <textarea rows="10" cols="50" name='twentytwo' id='twentytwo'><?php echo $formproc->SafeDisplay('twentytwo') ?></textarea>
+                        </div>
 
 
                         <div class='container'>
