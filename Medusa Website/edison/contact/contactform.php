@@ -62,9 +62,9 @@ if(isset($_POST['submitted']))
 <head>
           <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
           <title>Roadmap</title>
-          <link rel="STYLESHEET" type="text/css" href="contact.css" />
-          <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
-          <script type='text/javascript' src='scripts/fg_captcha_validator.js'></script>
+            <link rel="STYLESHEET" type="text/css" href="contact.css" />
+            <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
+            <script type='text/javascript' src='scripts/fg_captcha_validator.js'></script>
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
 
@@ -353,7 +353,36 @@ if(isset($_POST['submitted']))
                     <h3 id="button">Website Content</h3>
 
 
-                    <div>
+
+
+
+                        <div class='container text-center'>
+                           <h2 style="margin: 0; padding: 0;"><label for='name' >Website Elements?</label></h2> <br><br>
+
+
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> About Me<br>
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Photo Gallery<br>
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Contact Us Form (Email)<br>
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Call To Action (Click Here! Download Now!)<br>
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Google Map Locator<br>
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Timeline of Business or Product<br>
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Buttons to External Links (Buy Buttons, Download, Other Websites)<br>
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Pricing Tables<br>
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Embedded YouTube Video<br>
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Team Section<br>
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Customer Reviews or Quotes<br>
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Links to Social Media Accounts<br>
+                            <input type="checkbox" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Autoplay Video Header<br>
+                            <span id='contactus_email_errorloc' class='error'></span>
+
+
+                        </div>
+
+
+
+
+
+                        <br>
 
 
                         <div class='container'>
@@ -382,28 +411,12 @@ if(isset($_POST['submitted']))
 
 
 
-                        <br>
-
-
-
-                        <div class='container'>
-                            <label for='message' >Menu</label><br>
-                            <span id='contactus_message_errorloc' class='error'></span> <br>
-
-                            <input type="radio" name="eight" value="<?php echo $formproc->SafeDisplay('eight') ?>"> Yes, I do have existing marketing material that I would like to use.<br>
-                            <input type="radio" name="eight" value="<?php echo $formproc->SafeDisplay('eight') ?>"> No, I do not have existing marketing material.<br>
-                            <input type="radio" name="eight" value="<?php echo $formproc->SafeDisplay('eight') ?>"> I want the developer to call and discuss options about using marketing material.
-                            <span id='contactus_email_errorloc' class='error'></span>
-
-                        </div>
-
-
 
                         <br>
 
 
                         <div class='container'>
-                            <label for='message' >Provide each service you want to showcase on your site and a short description.</label><br/>
+                            <label for='message' >Provide each service or focus of work that you want to showcase on your site and a short description.</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
                             <textarea rows="10" cols="50" name='eleven' id='eleven'><?php echo $formproc->SafeDisplay('eleven') ?></textarea>
 
@@ -411,7 +424,6 @@ if(isset($_POST['submitted']))
 
 
 
-                    </div>
 
 
 
@@ -478,28 +490,23 @@ if(isset($_POST['submitted']))
                         </div>
 
 
+
+
+
                         <br>
 
 
+
+
                         <div class='container'>
-                            <label for='name' >Do you want a photo gallery?</label><br><br>
-
-
-                            <input type="radio" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> Yes, I do want a photo gallery<br>
-                            <input type="radio" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> No, I do not want a photo gallery<br>
-                            <input type="radio" name="seventeen" value="<?php echo $formproc->SafeDisplay('seventeen') ?>"> I want the developer to call and discuss options about using a photo gallery.
-                            <span id='contactus_email_errorloc' class='error'></span>
-
-
+                            <label for='message' >If you would like to add a timeline of your work </label><br>
+                            <span id='contactus_message_errorloc' class='error'></span>
+                            <textarea rows="10" cols="50" name='eighteen' id='eighteen'><?php echo $formproc->SafeDisplay('eighteen') ?></textarea>
                         </div>
 
 
 
-
-
                         <br>
-
-
 
 
 
@@ -519,29 +526,15 @@ if(isset($_POST['submitted']))
                         </div>
 
 
+
                         <br>
 
 
                         <div class='container'>
-                            <label for='name' >Do you want a "contact us" form that sends customer inquiries to your business' email?</label><br><br>
-
-                            <input type="radio" name="twentyone" value="<?php echo $formproc->SafeDisplay('twentyone') ?>"> Yes, I do have existing marketing material that I would like to use.<br>
-                            <input type="radio" name="twentyone" value="<?php echo $formproc->SafeDisplay('twentyone') ?>"> No, I do not have existing marketing material.<br>
-                            <input type="radio" name="twentyone" value="<?php echo $formproc->SafeDisplay('twentyone') ?>"> I want the developer to call and discuss options about using marketing material.
-                            <span id='contactus_email_errorloc' class='error'></span>
-
-
+                            <label for='message' >If you have multiple locations and would like list them on your site, please record them here. </label><br>
+                            <span id='contactus_message_errorloc' class='error'></span>
+                            <textarea rows="10" cols="50" name='twenty' id='twenty'><?php echo $formproc->SafeDisplay('twenty') ?></textarea>
                         </div>
-
-
-                    <br>
-
-
-                    <div class='container'>
-                        <label for='message' >Locations</label><br>
-                        <span id='contactus_message_errorloc' class='error'></span>
-                        <textarea rows="10" cols="50" name='twenty' id='twenty'><?php echo $formproc->SafeDisplay('twenty') ?></textarea>
-                    </div>
 
 
 

@@ -25,9 +25,11 @@
       <file leaf-file-name="contactform.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/edison/contact/contactform.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="422" column="62" selection-start-line="422" selection-start-column="62" selection-end-line="422" selection-end-column="62" />
-              <folding />
+            <state relative-caret-position="480">
+              <caret line="380" column="0" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#18;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -201,6 +203,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Medusa Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Medusa Website" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -259,12 +275,12 @@
       <workItem from="1483573623453" duration="17015000" />
       <workItem from="1484115818452" duration="36736000" />
       <workItem from="1484982341500" duration="12612000" />
-      <workItem from="1485287956482" duration="4547000" />
+      <workItem from="1485287956482" duration="8312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70910000" />
+    <option name="totallyTimeSpent" value="74675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="23" width="1871" height="984" extended-state="1" />
@@ -664,9 +680,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/edison/contact/contactform.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="422" column="62" selection-start-line="422" selection-start-column="62" selection-end-line="422" selection-end-column="62" />
-          <folding />
+        <state relative-caret-position="480">
+          <caret line="380" column="0" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#18;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
