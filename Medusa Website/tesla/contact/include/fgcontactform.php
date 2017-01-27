@@ -37,9 +37,9 @@ class FGContactForm
 
 
     /**********************************************************************************/
-    
+
     /* add variable here 1/4*/
-    
+
     var $name;
     var $email;
     var $phonenumber;
@@ -51,6 +51,9 @@ class FGContactForm
     var $currentdomain;
     var $domaincompany;
     var $slogan;
+    var $specificmessage;
+    var $focus;
+
     var $one;
     var $two;
     var $three;
@@ -70,16 +73,14 @@ class FGContactForm
     var $seventeen;
     var $eighteen;
     var $nineteen;
-    var $twenty;
-    var $twentyone;
-    var $twentytwo;
 
-    
 
-    
-    
-    
-    
+
+
+
+
+
+
     var $from_address;
     var $form_random_key;
     var $conditional_field;
@@ -88,10 +89,10 @@ class FGContactForm
     var $captcha_handler;
 
     var $mailer;
-    
-    
-    
-    
+
+
+
+
 
     function FGContactForm()
     {
@@ -106,13 +107,13 @@ class FGContactForm
         $this->mailer->CharSet = 'utf-8';
     }
 
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
     function EnableCaptcha($captcha_handler)
     {
         $this->captcha_handler = $captcha_handler;
@@ -172,15 +173,15 @@ class FGContactForm
 
         $this->fileupload_fields[] =
             array("name"=>$file_field_name,
-            "file_types"=>$accepted_types,
-            "maxsize"=>$max_size);
+                "file_types"=>$accepted_types,
+                "maxsize"=>$max_size);
     }
 
     function ProcessForm()
     {
         if(!isset($_POST['submitted']))
         {
-           return false;
+            return false;
         }
         if(!$this->Validate())
         {
@@ -208,21 +209,21 @@ class FGContactForm
     {
         return htmlentities($_SERVER['PHP_SELF']);
     }
-    
-    
-    
-    
-    
 
 
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /**********************************************************************************/
 
@@ -273,9 +274,17 @@ class FGContactForm
     {
         return $this->slogan;
     }
+    function GetSpecificMessage()
+    {
+        return $this->specificmessage;
+    }
+    function GetFocus()
+    {
+        return $this->focus;
+    }
     function GetOne()
     {
-        return htmlentities($this->one,ENT_QUOTES,"UTF-8");
+        return $this->one;
     }
     function GetTwo()
     {
@@ -283,19 +292,19 @@ class FGContactForm
     }
     function GetThree()
     {
-        return htmlentities($this->three,ENT_QUOTES,"UTF-8");
+        return $this->three;
     }
     function GetFour()
     {
-        return htmlentities($this->four,ENT_QUOTES,"UTF-8");
+        return $this->four;
     }
     function GetFive()
     {
-        return htmlentities($this->five,ENT_QUOTES,"UTF-8");
+        return $this->five;
     }
     function GetSix()
     {
-        return htmlentities($this->six,ENT_QUOTES,"UTF-8");
+        return $this->six;
     }
     function GetSeven()
     {
@@ -307,7 +316,7 @@ class FGContactForm
     }
     function GetNine()
     {
-        return $this->nine;
+        return htmlentities($this->nine,ENT_QUOTES,"UTF-8");
     }
     function GetTen()
     {
@@ -315,31 +324,31 @@ class FGContactForm
     }
     function GetEleven()
     {
-        return htmlentities($this->eleven,ENT_QUOTES,"UTF-8");
+        return $this->eleven;
     }
     function GetTwelve()
     {
-        return htmlentities($this->twelve,ENT_QUOTES,"UTF-8");
+        return $this->twelve;
     }
     function GetThirteen()
     {
-        return htmlentities($this->thirteen,ENT_QUOTES,"UTF-8");
+        return $this->thirteen;
     }
     function GetFourteen()
     {
-        return $this->fourteen;
+        return htmlentities($this->fourteen,ENT_QUOTES,"UTF-8");
     }
     function GetFifteen()
     {
-        return $this->fifteen;
+        return htmlentities($this->fifteen,ENT_QUOTES,"UTF-8");
     }
     function GetSixteen()
     {
-        return $this->sixteen;
+        return htmlentities($this->sixteen,ENT_QUOTES,"UTF-8");
     }
     function GetSeventeen()
     {
-        return $this->seventeen;
+        return htmlentities($this->seventeen,ENT_QUOTES,"UTF-8");
     }
     function GetEighteen()
     {
@@ -349,18 +358,7 @@ class FGContactForm
     {
         return htmlentities($this->nineteen,ENT_QUOTES,"UTF-8");
     }
-    function GetTwenty()
-    {
-        return htmlentities($this->twenty,ENT_QUOTES,"UTF-8");
-    }
-    function GetTwentyOne()
-    {
-        return $this->twentyone;
-    }
-    function GetTwentyTwo()
-    {
-        return htmlentities($this->twentytwo,ENT_QUOTES,"UTF-8");
-    }
+
 
 
 
@@ -387,7 +385,7 @@ class FGContactForm
         $this->CollectConditionalReceipients();
 
         $this->mailer->CharSet = 'utf-8';
-        
+
         $this->mailer->Subject = "Contact form submission from $this->name";
 
         $this->mailer->From = $this->GetFromAddress();
@@ -416,13 +414,13 @@ class FGContactForm
     function CollectConditionalReceipients()
     {
         if(count($this->arr_conditional_receipients)>0 &&
-          !empty($this->conditional_field) &&
-          !empty($_POST[$this->conditional_field]))
+            !empty($this->conditional_field) &&
+            !empty($_POST[$this->conditional_field]))
         {
             foreach($this->arr_conditional_receipients as $condn => $rec)
             {
                 if(strcasecmp($condn,$_POST[$this->conditional_field])==0 &&
-                !empty($rec))
+                    !empty($rec))
                 {
                     $this->AddRecipient($rec);
                 }
@@ -444,7 +442,7 @@ class FGContactForm
 
 
 
-    
+
     /*
     Internal variables, that you donot want to appear in the email
     Add those variables in this array.
@@ -452,10 +450,10 @@ class FGContactForm
     function IsInternalVariable($varname)
     {
         $arr_interanl_vars = array('scaptcha',
-                            'submitted',
-                            $this->GetSpamTrapInputName(),
-                            $this->GetFormIDInputName()
-                            );
+            'submitted',
+            $this->GetSpamTrapInputName(),
+            $this->GetFormIDInputName()
+        );
         if(in_array($varname,$arr_interanl_vars))
         {
             return true;
@@ -482,8 +480,8 @@ class FGContactForm
             if(!$this->IsFileUploaded($field_name))
             {
                 continue;
-            }        
-            
+            }
+
             $filename = basename($_FILES[$field_name]['name']);
 
             $ret_str .= "<div class='label'>File upload '$field_name' :</div><div class='value'>$filename </div>\n";
@@ -504,21 +502,21 @@ class FGContactForm
     function GetMailStyle()
     {
         $retstr = "\n<style>".
-        "body,.label,.value { font-family:Arial,Verdana; } ".
-        ".label {font-weight:bold; margin-top:5px; font-size:1em; color:#333;} ".
-        ".value {margin-bottom:15px;font-size:0.8em;padding-left:5px;} ".
-        "</style>\n";
+            "body,.label,.value { font-family:Arial,Verdana; } ".
+            ".label {font-weight:bold; margin-top:5px; font-size:1em; color:#333;} ".
+            ".value {margin-bottom:15px;font-size:0.8em;padding-left:5px;} ".
+            "</style>\n";
 
         return $retstr;
     }
     function GetHTMLHeaderPart()
     {
-         $retstr = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">'."\n".
-                   '<html><head><title></title>'.
-                   '<meta http-equiv=Content-Type content="text/html; charset=utf-8">';
-         $retstr .= $this->GetMailStyle();
-         $retstr .= '</head><body>';
-         return $retstr;
+        $retstr = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">'."\n".
+            '<html><head><title></title>'.
+            '<meta http-equiv=Content-Type content="text/html; charset=utf-8">';
+        $retstr .= $this->GetMailStyle();
+        $retstr .= '</head><body>';
+        return $retstr;
     }
     function GetHTMLFooterPart()
     {
@@ -546,7 +544,7 @@ class FGContactForm
             {
                 continue;
             }
-            
+
             $filename =basename($_FILES[$field_name]['name']);
 
             $this->mailer->AddAttachment($_FILES[$field_name]["tmp_name"],$filename);
@@ -571,7 +569,7 @@ class FGContactForm
         $ret = true;
         //security validations
         if(empty($_POST[$this->GetFormIDInputName()]) ||
-          $_POST[$this->GetFormIDInputName()] != $this->GetFormIDInputValue() )
+            $_POST[$this->GetFormIDInputName()] != $this->GetFormIDInputValue() )
         {
             //The proper error is not given intentionally
             $this->add_error("Automated submission prevention: case 1 failed");
@@ -610,11 +608,11 @@ class FGContactForm
             $ret = false;
         }
         else
-        if(strlen($_POST['name'])>50)
-        {
-            $this->add_error("Name is too big!");
-            $ret = false;
-        }
+            if(strlen($_POST['name'])>50)
+            {
+                $this->add_error("Name is too big!");
+                $ret = false;
+            }
 
 
 
@@ -678,19 +676,19 @@ class FGContactForm
             $ret = false;
         }
         else
-        if(strlen($_POST['email'])>50)
-        {
-            $this->add_error("Email address is too big!");
-            $ret = false;
-        }
-        else
-        if(!$this->validate_email($_POST['email']))
-        {
-            $this->add_error("Please provide a valid email address");
-            $ret = false;
-        }
+            if(strlen($_POST['email'])>50)
+            {
+                $this->add_error("Email address is too big!");
+                $ret = false;
+            }
+            else
+                if(!$this->validate_email($_POST['email']))
+                {
+                    $this->add_error("Please provide a valid email address");
+                    $ret = false;
+                }
 
-        
+
 
 
 
@@ -725,10 +723,10 @@ class FGContactForm
         //file upload validations
         if(!empty($this->fileupload_fields))
         {
-         if(!$this->ValidateFileUploads())
-         {
-            $ret = false;
-         }
+            if(!$this->ValidateFileUploads())
+            {
+                $ret = false;
+            }
         }
         return $ret;
     }
@@ -760,7 +758,7 @@ class FGContactForm
     function ValidateFileSize($field_name,$max_size)
     {
         $size_of_uploaded_file =
-                $_FILES[$field_name]["size"]/1024;//size in KBs
+            $_FILES[$field_name]["size"]/1024;//size in KBs
         if($size_of_uploaded_file > $max_size)
         {
             $this->add_error("The file is too big. File size should be less than $max_size KB");
@@ -789,7 +787,7 @@ class FGContactForm
             $field_name = $upld_field["name"];
 
             $valid_filetypes = $upld_field["file_types"];
-            
+
             if(!$this->IsFileUploaded($field_name))
             {
                 continue;
@@ -802,13 +800,13 @@ class FGContactForm
             }
 
             if(!empty($valid_filetypes) &&
-             !$this->ValidateFileType($field_name,$valid_filetypes))
+                !$this->ValidateFileType($field_name,$valid_filetypes))
             {
                 $ret=false;
             }
 
             if(!empty($upld_field["maxsize"]) &&
-            $upld_field["maxsize"]>0)
+                $upld_field["maxsize"]>0)
             {
                 if(!$this->ValidateFileSize($field_name,$upld_field["maxsize"]))
                 {
@@ -846,7 +844,7 @@ class FGContactForm
                 '/(%0D+)/i',
                 '/(%08+)/i',
                 '/(%09+)/i'
-                );
+            );
             $str = preg_replace($injections,'',$str);
         }
 
@@ -885,48 +883,42 @@ class FGContactForm
         $this->currentdomain = $this->Sanitize($_POST['currentdomain']);
         $this->domaincompany = $this->Sanitize($_POST['domaincompany']);
         $this->slogan = $this->Sanitize($_POST['slogan']);
+        $this->specificmessage = $this->Sanitize($_POST['specificmessage']);
+        $this->focus = $this->Sanitize($_POST['focus']);
 
         /*newline is OK in the message.*/
-        $this->one = $this->StripSlashes($_POST['one']);
+        $this->one = $this->Sanitize($_POST['one']);
+
+
         $this->two = $this->StripSlashes($_POST['two']);
-        $this->three = $this->StripSlashes($_POST['three']);
-        $this->four = $this->StripSlashes($_POST['four']);
-        $this->five = $this->StripSlashes($_POST['five']);
-        $this->six = $this->StripSlashes($_POST['six']);
+
+
+        $this->three = $this->Sanitize($_POST['three']);
+        $this->four = $this->Sanitize($_POST['four']);
+        $this->five = $this->Sanitize($_POST['five']);
+        $this->six = $this->Sanitize($_POST['six']);
+
+
         $this->seven = $this->StripSlashes($_POST['seven']);
         $this->eight = $this->StripSlashes($_POST['eight']);
-
-
-        $this->nine = $this->Sanitize($_POST['nine']);
-
-
+        $this->nine = $this->StripSlashes($_POST['nine']);
         $this->ten = $this->StripSlashes($_POST['ten']);
-        $this->eleven = $this->StripSlashes($_POST['eleven']);
-        $this->twelve = $this->StripSlashes($_POST['twelve']);
-        $this->thirteen = $this->StripSlashes($_POST['thirteen']);
+
+
+        $this->eleven = $this->Sanitize($_POST['eleven']);
+        $this->twelve = $this->Sanitize($_POST['twelve']);
+        $this->thirteen = $this->Sanitize($_POST['thirteen']);
 
 
 
 
-        $this->fourteen = $this->Sanitize($_POST['fourteen']);
-        $this->fifteen = $this->Sanitize($_POST['fifteen']);
-        $this->sixteen = $this->Sanitize($_POST['sixteen']);
-        $this->seventeen = $this->Sanitize($_POST['seventeen']);
-
-
-
-
+        $this->fourteen = $this->StripSlashes($_POST['fourteen']);
+        $this->fifteen = $this->StripSlashes($_POST['fifteen']);
+        $this->sixteen = $this->StripSlashes($_POST['sixteen']);
+        $this->seventeen = $this->StripSlashes($_POST['seventeen']);
         $this->eighteen = $this->StripSlashes($_POST['eighteen']);
         $this->nineteen = $this->StripSlashes($_POST['nineteen']);
-        $this->twenty = $this->StripSlashes($_POST['twenty']);
 
-
-
-        $this->twentyone = $this->Sanitize($_POST['twentyone']);
-
-
-
-        $this->twentytwo = $this->StripSlashes($_POST['twentytwo']);
 
 
 

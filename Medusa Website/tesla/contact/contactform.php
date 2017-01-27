@@ -12,7 +12,7 @@ $formproc = new FGContactForm();
 
 //1. Add your email address here.
 //You can add more than one receipients.
-$formproc->AddRecipient('bootstraproadmapsales@gmail.com'); //<<---Put your email address here
+$formproc->AddRecipient('medusadesigncosales@gmail.com'); //<<---Put your email address here
 
 
 //2. For better security. Get a random tring from this link: http://tinyurl.com/randstr
@@ -160,155 +160,157 @@ if(isset($_POST['submitted']))
 
 
 
-            
-                    <div class='container'>
-                        <label for='name' >Your Full Name*: </label><br/>
-                        <input type='text' name='name' id='name' value='<?php echo $formproc->SafeDisplay('name') ?>' maxlength="50" /><br/>
-                        <span id='contactus_name_errorloc' class='error'></span>
-                    </div>
 
 
 
 
 
+            <div class='container'>
+                <label for='name' >Your Full Name*: </label><br/>
+                <input type='text' name='name' id='name' value='<?php echo $formproc->SafeDisplay('name') ?>' maxlength="50" /><br/>
+                <span id='contactus_name_errorloc' class='error'></span>
+            </div>
 
 
-                        
-                    <div class='container'>
-                        <label for='email' >Email Address*:</label><br/>
-                        <input type='text' name='email' id='email' value='<?php echo $formproc->SafeDisplay('email') ?>' maxlength="50" /><br/>
-                        <span id='contactus_email_errorloc' class='error'></span>
-                    </div>
 
 
 
 
 
 
+            <div class='container'>
+                <label for='email' >Email Address*:</label><br/>
+                <input type='text' name='email' id='email' value='<?php echo $formproc->SafeDisplay('email') ?>' maxlength="50" /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
-                    <div class='container'>
-                        <label for='email' >Phone Number*:</label><br/>
-                        <input type='text' name='phonenumber' id='phonenumber' value='<?php echo $formproc->SafeDisplay('phonenumber') ?>' maxlength="50" /><br/>
-                        <span id='contactus_email_errorloc' class='error'></span>
-                    </div>
 
 
 
 
 
 
+            <div class='container'>
+                <label for='email' >Phone Number*:</label><br/>
+                <input type='text' name='phonenumber' id='phonenumber' value='<?php echo $formproc->SafeDisplay('phonenumber') ?>' maxlength="50" /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
-                    <div class='container'>
-                        <label for='email' >Business Name*:</label><br/>
-                        <input type='text' name='businessname' id='businessname' value='<?php echo $formproc->SafeDisplay('businessname') ?>' maxlength="50" /><br/>
-                        <span id='contactus_email_errorloc' class='error'></span>
-                    </div>
 
 
 
 
 
 
-                    <div class='container'>
-                        <label for='email' >Business Address*:</label><br/>
-                        <input type='text' name='businessaddress' id='businessaddress' value='<?php echo $formproc->SafeDisplay('businessaddress') ?>' maxlength="50" /><br/>
-                        <span id='contactus_email_errorloc' class='error'></span>
-                    </div>
+            <div class='container'>
+                <label for='email' >Business Name*:</label><br/>
+                <input type='text' name='businessname' id='businessname' value='<?php echo $formproc->SafeDisplay('businessname') ?>' maxlength="50" /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
 
 
 
 
 
+            <div class='container'>
+                <label for='email' >Business Address*:</label><br/>
+                <input type='text' name='businessaddress' id='businessaddress' value='<?php echo $formproc->SafeDisplay('businessaddress') ?>' maxlength="50" /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
-                    <div class='container'>
-                        <label for='email' >Main contact for the project (name and title)*:</label><br/>
-                        <input type='text' name='maincontact' id='maincontact' value='<?php echo $formproc->SafeDisplay('maincontact') ?>' maxlength="50" /><br/>
-                        <span id='contactus_email_errorloc' class='error'></span>
-                    </div>
 
 
 
 
 
-                    <div class='container'>
-                        <label for='email' >Final decision maker for the project*:</label><br/>
-                        <input type='text' name='decisionmaker' id='decisionmaker' value='<?php echo $formproc->SafeDisplay('decisionmaker') ?>' maxlength="50" /><br/>
-                        <span id='contactus_email_errorloc' class='error'></span>
-                    </div>
 
+            <div class='container'>
+                <label for='email' >Main contact for the project (name and title)*:</label><br/>
+                <input type='text' name='maincontact' id='maincontact' value='<?php echo $formproc->SafeDisplay('maincontact') ?>' maxlength="50" /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
 
 
 
 
-                    <br>
-                    <br>
+            <div class='container'>
+                <label for='email' >Final decision maker for the project*:</label><br/>
+                <input type='text' name='decisionmaker' id='decisionmaker' value='<?php echo $formproc->SafeDisplay('decisionmaker') ?>' maxlength="50" /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
 
-                    <p>
-                        If you do not have a domain, please go buy one at a respected website.
-                    </p>
 
 
-                    <div class='container'>
-                        <label for='email' >Current website address (if applicable):</label><br/>
-                        <input type='text' name='websiteaddress' id='websiteaddress' value='<?php echo $formproc->SafeDisplay('websiteaddress') ?>' maxlength="50" /><br/>
-                        <span id='contactus_email_errorloc' class='error'></span>
-                    </div>
 
 
+            <br>
+            <br>
 
 
+            <p>
+                If you do not have a domain, please go buy one at a respected website.
+            </p>
 
 
+            <div class='container'>
+                <label for='email' >Current website address (if applicable):</label><br/>
+                <input type='text' name='websiteaddress' id='websiteaddress' value='<?php echo $formproc->SafeDisplay('websiteaddress') ?>' maxlength="50" /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
-                    <div class='container'>
-                        <label for='email' >Current domain name (if applicable):</label><br/>
-                        <input type='text' name='currentdomain' id='currentdomain' value='<?php echo $formproc->SafeDisplay('currentdomain') ?>' maxlength="50" /><br/>
-                        <span id='contactus_email_errorloc' class='error'></span>
-                    </div>
 
 
 
-                    <div class='container'>
-                        <label for='email' >What is the company that hosts your domain name? (ie: who did you buy it from? if applicable):</label><br/>
-                        <input type='text' name='domaincompany' id='domaincompany' value='<?php echo $formproc->SafeDisplay('domaincompany') ?>' maxlength="50" /><br/>
-                        <span id='contactus_email_errorloc' class='error'></span>
-                    </div>
 
 
 
+            <div class='container'>
+                <label for='email' >Current domain name (if applicable):</label><br/>
+                <input type='text' name='currentdomain' id='currentdomain' value='<?php echo $formproc->SafeDisplay('currentdomain') ?>' maxlength="50" /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
 
-                    <div class='container'>
-                        <label for='email' >Slogan (if applicable):</label><br/>
-                        <input type='text' name='slogan' id='slogan' value='<?php echo $formproc->SafeDisplay('slogan') ?>' /><br/>
-                        <span id='contactus_email_errorloc' class='error'></span>
-                    </div>
 
+            <div class='container'>
+                <label for='email' >What is the company that hosts your domain name? (ie: who did you buy it from? if applicable):</label><br/>
+                <input type='text' name='domaincompany' id='domaincompany' value='<?php echo $formproc->SafeDisplay('domaincompany') ?>' maxlength="50" /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
 
 
 
 
+            <div class='container'>
+                <label for='email' >Slogan (if applicable):</label><br/>
+                <input type='text' name='slogan' id='slogan' value='<?php echo $formproc->SafeDisplay('slogan') ?>' /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
 
 
 
+            <div class='container'>
+                <label for='message' >Is there a specific message you wish to convey to your audience?</label><br/>
+                <input type='text' name='specificmessage' id='specificmessage' value='<?php echo $formproc->SafeDisplay('specificmessage') ?>' /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
 
 
+            <div class='container'>
+                <label for='message' >What are the focus areas of your business? (eg: organic, family care, business portraits)</label><br>
+                <input type='text' name='focus' id='focus' value='<?php echo $formproc->SafeDisplay('focus') ?>' /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
 
-                    <h3 id="button">Your Objectives and Goals</h3>
 
 
-                        <div class='container'>
-                            <label for='message' >Is there a specific message you wish to convey to your audience?</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='one' id='one'><?php echo $formproc->SafeDisplay('one') ?></textarea>
-                        </div>
 
 
 
@@ -318,158 +320,227 @@ if(isset($_POST['submitted']))
 
 
 
+            <h3 id="button">Design Choices</h3>
 
 
 
+            <div class='container'>
+                <label for='message' >Use three adjectives to describe how the user should perceive your business. <br>(eg: progressive, friendly, formal, casual, energetic, professional, playful...)</label><br/>
+                <input type='text' name='one' id='one' value='<?php echo $formproc->SafeDisplay('one') ?>' /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
 
+            <div class='container'>
+                <label for='message' >Do you have a preferred color scheme?<br> (if possible please provide RGB or hex color codes) </label><br/>
+                <textarea rows="10" cols="50" name='two' id='two'><?php echo $formproc->SafeDisplay('two') ?></textarea>
+                <span id='contactus_message_errorloc' class='error'></span>
 
+            </div>
 
 
+            <div class='container'>
+                <label for='message' >Are there any colors you want to avoid? </label><br/>
+                <input type='text' name='three' id='three' value='<?php echo $formproc->SafeDisplay('three') ?>' /><br/>
+                <span id='contactus_email_errorloc' class='error'></span>
+            </div>
 
 
-                    <h3 id="button">Target Audience</h3>
 
 
 
 
-                        <div class='container'>
-                            <label for='message' >Who is the target audience for your website? (eg: wholesale vendors, business to customer, business to business)</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='two' id='two'><?php echo $formproc->SafeDisplay('two') ?></textarea>
-                        </div>
 
 
 
 
 
+            <h3 id="button">Website Content</h3>
 
 
 
 
 
+            <div class='container text-center'>
+                <h2 style="margin: 0; padding: 0;"><label for='name' >Website Elements?</label></h2> <br><br>
 
 
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> About Me<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Photo Gallery<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Contact Us Form (Email)<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Call To Action (Click Here! Download Now!)<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Google Map Locator<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Timeline of Business or Product<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Separate Menu or Services Page<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Buttons to External Links (Buy Buttons, Download, Link to Another Website)<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Pricing Tables<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Embedded YouTube Video<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Team Section<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Customer Reviews or Quotes<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Links to Social Media Accounts<br>
+                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Autoplay Video Header<br>
+                <span id='contactus_email_errorloc' class='error'></span>
 
 
+            </div>
 
 
 
 
 
+            <br>
 
 
+            <div class='container'>
+                <label for='message' >Will your site use existing marketing content? (eg: art, photos, logo)</label><br><br>
 
+                <input type="radio" name="five" id='five' value="<?php echo $formproc->SafeDisplay('five') ?>"> Yes, I do have existing marketing material that I would like to use.<br>
+                <input type="radio" name="five" id='five' value="<?php echo $formproc->SafeDisplay('five') ?>"> No, I do not have existing marketing material.<br>
+                <input type="radio" name="five" id='five' value="<?php echo $formproc->SafeDisplay('five') ?>"> I want the developer to call and discuss options about using marketing material.
+                <span id='contactus_email_errorloc' class='error'></span>
 
+            </div>
 
 
+            <br>
+            <div class='container'>
+                <label for='email' >Are you comfortable utilizing stock photos for your website?<br> All stock photos that are incorporated by BRM on your site will be licensed for you at no extra charge.</label><br/>
 
-                    <h3 id="button">Design Choices</h3>
+                <br>
+                <input type="radio" name="six" id='six' value="<?php echo $formproc->SafeDisplay('six') ?>"> Yes, I am comfortable using stock photos.<br>
+                <input type="radio" name="six" id='six' value="<?php echo $formproc->SafeDisplay('six') ?>"> No, I do not want to use stock photos.<br>
+                <input type="radio" name="six" id='six' value="<?php echo $formproc->SafeDisplay('six') ?>"> I want the developer to call and discuss options about using stock photos
+                <span id='contactus_email_errorloc' class='error'></span>
 
 
+            </div>
 
-                        <div class='container'>
-                            <label for='message' >Use three adjectives to describe how the user should perceive your business. (eg: progressive, friendly, formal, casual, energetic, professional, playful...)</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='three' id='three'><?php echo $formproc->SafeDisplay('three') ?></textarea>
-                        </div>
 
 
-                        <div class='container'>
-                            <label for='message' >Do you have a preferred color scheme? (if possible please provide RGB or hex color codes) </label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='four' id='four'><?php echo $formproc->SafeDisplay('four') ?></textarea>
-                        </div>
 
+            <br>
 
-                        <div class='container'>
-                            <label for='message' >Do you have a preferred color scheme or colors you definitely want to avoid? </label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='five' id='five'><?php echo $formproc->SafeDisplay('five') ?></textarea>
-                        </div>
 
+            <div class='container'>
+                <label for='message' >Provide each service or focus of work that you want to showcase on your site and a short description.</label><br/>
+                <span id='contactus_message_errorloc' class='error'></span>
+                <textarea rows="10" cols="50" name='seven' id='seven'><?php echo $formproc->SafeDisplay('seven') ?></textarea>
 
-                        <div class='container'>
-                            <label for='message' >Is there a current corporate style guide and logo that will be used? If not, are you considering the creation of a corporate style guide, identity, or logo? </label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='six' id='six'><?php echo $formproc->SafeDisplay('six') ?></textarea>
-                        </div>
+            </div>
 
 
 
 
 
 
+            <br>
 
 
 
+            <div class='container'>
+                <label for='message' >Provide the description you would include in an "About Us" section:</label><br/>
+                <span id='contactus_message_errorloc' class='error'></span>
+                <textarea rows="10" cols="50" name='eight' id='eight'><?php echo $formproc->SafeDisplay('eight') ?></textarea>
+            </div>
 
 
 
 
 
 
+            <br>
 
 
-                    <h3 id="button">Primary Action</h3>
 
+            <div class='container'>
+                <label for='message' >Highlight each of your team members (Full name, position, short description, social media links, picture, etc.)</label><br>
+                <span id='contactus_message_errorloc' class='error'></span>
+                <textarea rows="10" cols="50" name='nine' id='nine'><?php echo $formproc->SafeDisplay('nine') ?></textarea>
+            </div>
 
+            <br>
 
 
-                        <div class='container'>
-                            <label for='message' >What is the primary action you wish a visitor to take from your new site? (eg: call, email, find address, explore gallery, etc.)</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='seven' id='seven'><?php echo $formproc->SafeDisplay('seven') ?></textarea>
-                        </div>
 
+            <div class='container'>
+                <label for='message' >Portfolio or previous work, and/or education your would like to showcase (Full name of work or degree, short description, picture, etc.).</label><br/>
+                <span id='contactus_message_errorloc' class='error'></span>
+                <textarea rows="10" cols="50" name='ten' id='ten'><?php echo $formproc->SafeDisplay('ten') ?></textarea>
+            </div>
 
 
 
 
+            <br>
 
 
 
 
+            <div class='container'>
+                <label for='name' >Hours of operation (eg: M-F 8 to 5):</label><br>
+                <input type='text' name='eleven' id='eleven' value='<?php echo $formproc->SafeDisplay('eleven') ?>' maxlength="50" /><br/>
+                <span id='contactus_name_errorloc' class='error'></span>
+            </div>
 
+            <div class='container'>
+                <label for='name' >Business email address:</label><br>
+                <input type='text' name='twelve' id='twelve' value='<?php echo $formproc->SafeDisplay('twelve') ?>' maxlength="50" /><br/>
+                <span id='contactus_name_errorloc' class='error'></span>
+            </div>
 
 
+            <div class='container'>
+                <label for='name' >Business phone number:</label><br>
+                <input type='text' name='thirteen' id='thirteen' value='<?php echo $formproc->SafeDisplay('thirteen') ?>' maxlength="50" /><br/>
+                <span id='contactus_name_errorloc' class='error'></span>
+            </div>
 
 
 
 
 
+            <br>
 
 
 
 
+            <div class='container'>
+                <label for='message' >If you would like to add a timeline of your work, please put events here.</label><br>
+                <span id='contactus_message_errorloc' class='error'></span>
+                <textarea rows="10" cols="50" name='fourteen' id='fourteen'><?php echo $formproc->SafeDisplay('fourteen') ?></textarea>
+            </div>
 
 
 
-                    <h3 id="button">Content</h3>
+            <br>
 
 
-                    <div>
 
 
-                        <div class='container'>
-                            <label for='message' >Will this site use existing marketing content? (eg: art, photos, logo)</br> </br> If yes, please upload your files using the DropBox link provided below. We have included three upload links with this form, but if you have more than three uploads, we ask that you use the DropBox platform to share your files with BRM.</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='eight' id='eight'><?php echo $formproc->SafeDisplay('eight') ?></textarea>
-                        </div>
+            <div class='container'>
+                <label for='message' >Social media accounts (please provide the name of the account and the URL):</label><br>
+                <span id='contactus_message_errorloc' class='error'></span>
+                <textarea rows="10" cols="50" name='fifteen' id='fifteen'><?php echo $formproc->SafeDisplay('fifteen') ?></textarea>
+            </div>
 
 
-                        <div class='container'>
-                            <label for='email' >Are you comfortable with utilizing stock photos for your website? All stock photos that are incorporated by BRM on your site will be licensed for you at no extra charge.</label><br/>
-                            <input type='text' name='nine' id='nine' value='<?php echo $formproc->SafeDisplay('nine') ?>' maxlength="50" /><br/>
-                            <span id='contactus_email_errorloc' class='error'></span>
-                        </div>
 
-                    </div>
+            <div class='container'>
+                <label for='message' >Do you have customer reviews that you want to add? If so, please provide the names and quotes in the space below.</label><br>
+                <span id='contactus_message_errorloc' class='error'></span>
+                <textarea rows="10" cols="50" name='sixteen' id='sixteen'><?php echo $formproc->SafeDisplay('sixteen') ?></textarea>
+            </div>
 
 
 
+            <br>
 
 
+            <div class='container'>
+                <label for='message' >If you have multiple locations and would like list them on your site, please record them here. </label><br>
+                <span id='contactus_message_errorloc' class='error'></span>
+                <textarea rows="10" cols="50" name='seventeen' id='seventeen'><?php echo $formproc->SafeDisplay('seventeen') ?></textarea>
+            </div>
 
 
 
@@ -487,113 +558,55 @@ if(isset($_POST['submitted']))
 
 
 
-                    <h3 id="button">Website Elements</h3>
 
 
 
 
-                        <div class='container'>
-                            <label for='message' >Provide the business description you would include in an "About Us" section:</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='ten' id='ten'><?php echo $formproc->SafeDisplay('ten') ?></textarea>
-                        </div>
 
 
-                        </br>
 
 
-                        <div class='container'>
-                            <label for='message' >Provide each service and a short description of that service. Separate each service and description combination with a comma. </br> </br> (eg: Business Photos: short description, Dinner: short description, Routine Teeth Care: short description)</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='eleven' id='eleven'><?php echo $formproc->SafeDisplay('eleven') ?></textarea>
-                        </div>
 
 
 
-                        </br>
 
+            <h3 id="button">Closing Thoughts and Requests</h3>
 
 
-                        <div class='container'>
-                            <label for='message' >Provide information to highlight each of your team members on your website (Full name, position, and a short description). </br> </br> If you would like social media links for each team member, please include the URLs associated with each team member's social media page. </br> </br> If you have
-                            a picture of each member, please upload your files using the DropBox link provided below and include a file name that corresponds with the team member's name (eg: last name_first name).</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='twelve' id='twelve'><?php echo $formproc->SafeDisplay('twelve') ?></textarea>
-                        </div>
 
-                        </br>
+            <div class='container'>
+                <label for='message' >Special requests or development features you would like to add. (Hourly development charge may apply depending on size/complexity of additions)</label><br>
+                <span id='contactus_message_errorloc' class='error'></span>
+                <textarea rows="10" cols="50" name='eighteen' id='eighteen'><?php echo $formproc->SafeDisplay('eighteen') ?></textarea>
+            </div>
 
 
+            <div class='container'>
+                <label for='message' >Additional information you would like to share with Bootstrap Roadmap to aid in the content or design of your website:</label><br>
+                <span id='contactus_message_errorloc' class='error'></span>
+                <textarea rows="10" cols="50" name='nineteen' id='nineteen'><?php echo $formproc->SafeDisplay('nineteen') ?></textarea>
+            </div>
 
-                        <div class='container'>
-                            <label for='message' >Portfolio or previous work (Full name of work, short description, whatever else you want). This is also a great place for
-                                previous education or certificates that apply towards your business. If you have a picture of each work, please upload your files using the DropBox link provided below and include a file name that corresponds with the work's name.</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='thirteen' id='thirteen'><?php echo $formproc->SafeDisplay('thirteen') ?></textarea>
-                        </div>
 
-                        </br>
 
 
 
 
-                        <div class='container'>
-                            <label for='name' >Hours of operation (eg: M-F 8 to 5):</label><br/>
-                            <input type='text' name='fourteen' id='fourteen' value='<?php echo $formproc->SafeDisplay('fourteen') ?>' maxlength="50" /><br/>
-                            <span id='contactus_name_errorloc' class='error'></span>
-                        </div>
 
-                        <div class='container'>
-                            <label for='name' >Business email address:</label><br/>
-                            <input type='text' name='fifteen' id='fifteen' value='<?php echo $formproc->SafeDisplay('fifteen') ?>' maxlength="50" /><br/>
-                            <span id='contactus_name_errorloc' class='error'></span>
-                        </div>
 
 
-                        <div class='container'>
-                            <label for='name' >Business phone number:</label><br/>
-                            <input type='text' name='sixteen' id='sixteen' value='<?php echo $formproc->SafeDisplay('sixteen') ?>' maxlength="50" /><br/>
-                            <span id='contactus_name_errorloc' class='error'></span>
-                        </div>
 
 
-                        </br>
 
 
-                        <div class='container'>
-                            <label for='name' >Do you want a photo gallery? (We strongly suggest having a photo gallery to provide visual context of your work, even if it is stock photos) If you are going to provide photos for
-                                the gallery, please upload your files using the DropBox link provided below.</label><br/>
-                            <input type='text' name='seventeen' id='seventeen' value='<?php echo $formproc->SafeDisplay('seventeen') ?>' maxlength="50" /><br/>
-                            <span id='contactus_name_errorloc' class='error'></span>
-                        </div>
 
 
 
-                        <div class='container'>
-                            <label for='message' >Social media accounts (please provide the name of the account and the URL):</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='eighteen' id='eighteen'><?php echo $formproc->SafeDisplay('eighteen') ?></textarea>
-                        </div>
 
 
-                        <div class='container'>
-                            <label for='message' >What are the focus areas of your business? (eg: organic, family care, business portraits)</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='nineteen' id='nineteen'><?php echo $formproc->SafeDisplay('nineteen') ?></textarea>
-                        </div>
 
-                        <div class='container'>
-                            <label for='message' >Do you have customer reviews that you want to add? Please provide the names and quotes in the space below.</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='twenty' id='twenty'><?php echo $formproc->SafeDisplay('twenty') ?></textarea>
-                        </div>
 
 
-                        <div class='container'>
-                            <label for='name' >Do you want a "contact us" form that sends customer inquiries to your business' email?</label><br/>
-                            <input type='text' name='twentyone' id='twentyone' value='<?php echo $formproc->SafeDisplay('twentyone') ?>' maxlength="50" /><br/>
-                            <span id='contactus_name_errorloc' class='error'></span>
-                        </div>
 
 
 
@@ -603,60 +616,7 @@ if(isset($_POST['submitted']))
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <h3 id="button">Closing Thoughts and Requests</h3>
-
-
-
-                        <div class='container'>
-                            <label for='message' >Additional information you would like to share with Bootstrap Roadmap to aid in the content or design of your website:</label><br/>
-                            <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='twentytwo' id='twentytwo'><?php echo $formproc->SafeDisplay('twentytwo') ?></textarea>
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <!-- uploads -->
+            <!-- uploads -->
 
 
 
