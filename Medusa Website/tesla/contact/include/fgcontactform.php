@@ -58,20 +58,20 @@ class FGContactForm
     var $two;
     var $three;
 
-    var $four1;
-    var $four2;
-    var $four3;
-    var $four4;
-    var $four5;
-    var $four6;
-    var $four7;
-    var $four8;
-    var $four9;
-    var $four10;
-    var $four11;
-    var $four12;
-    var $four13;
-    var $four14;
+    var $photogallery;
+    var $contactform;
+    var $calltoaction;
+    var $googlemap;
+    var $timeline;
+    var $menu;
+    var $buttons;
+    var $pricetables;
+    var $youtube;
+    var $team;
+    var $reviews;
+    var $socialmedia;
+    var $videoheader;
+
 
     var $five;
     var $six;
@@ -314,90 +314,85 @@ class FGContactForm
 
 
 
-    function GetFour1()
+    function GetPhotoGallery()
     {
 
-        return $this->four1;
+        return $this->photogallery;
 
     }
-    function GetFour2()
+    function GetContactForm()
     {
 
-        return $this->four2;
+        return $this->contactform;
 
     }
-    function GetFour3()
+    function GetCallToAction()
     {
 
-        return $this->four3;
+        return $this->calltoaction;
 
     }
-    function GetFour4()
+    function GetGoogleMap()
     {
 
-        return $this->four4;
+        return $this->googlemap;
 
     }
-    function GetFour5()
+    function GetTimeLine()
     {
 
-        return $this->four5;
+        return $this->timeline;
 
     }
-    function GetFour6()
+    function GetMenu()
     {
 
-        return $this->four6;
+        return $this->menu;
 
     }
-    function GetFour7()
+    function GetButtons()
     {
 
-        return $this->four7;
+        return $this->buttons;
 
     }
-    function GetFour8()
+    function GetPriceTables()
     {
 
-        return $this->four8;
+        return $this->pricetables;
 
     }
-    function GetFour9()
+    function GetYoutube()
     {
 
-        return $this->four9;
+        return $this->youtube;
 
     }
-    function GetFour10()
+    function GetTeam()
     {
 
-        return $this->four10;
+        return $this->team;
 
     }
-    function GetFour11()
+    function GetReviews()
     {
 
-        return $this->four11;
+        return $this->reviews;
 
     }
-    function GetFour12()
+    function GetSocialMedia()
     {
 
-        return $this->four12;
+        return $this->socialmedia;
 
     }
-    function GetFour13()
+    function GetVideoHeader()
     {
 
-        return $this->four13;
+        return $this->videoheader;
 
     }
-    function GetFour14()
-    {
 
-        return $this->four14;
-
-    }
 
 
 
@@ -1008,62 +1003,19 @@ class FGContactForm
 
 
 
-        $this->four1 = $_POST['four1'];
-        if ($this->four1 != 'Yes') {
-            $this->four1 = 'No';
-        }
-        $this->four2 = $_POST['four2'];
-        if ($this->four2 != 'Yes') {
-            $this->four2 = 'No';
-        }
-        $this->four3 = $_POST['four3'];
-        if ($this->four3 != 'Yes') {
-            $this->four3 = 'No';
-        }
-        $this->four4 = $_POST['four4'];
-        if ($this->four4 != 'Yes') {
-            $this->four4 = 'No';
-        }
-        $this->four5 = $_POST['four5'];
-        if ($this->four5 != 'Yes') {
-            $this->four5 = 'No';
-        }
-        $this->four6 = $_POST['four6'];
-        if ($this->four6 != 'Yes') {
-            $this->four6 = 'No';
-        }
-        $this->four7 = $_POST['four7'];
-        if ($this->four7 != 'Yes') {
-            $this->four7 = 'No';
-        }
-        $this->four8 = $_POST['four8'];
-        if ($this->four8 != 'Yes') {
-            $this->four8 = 'No';
-        }
-        $this->four9 = $_POST['four9'];
-        if ($this->four9 != 'Yes') {
-            $this->four9 = 'No';
-        }
-        $this->four10 = $_POST['four10'];
-        if ($this->four10 != 'Yes') {
-            $this->four10 = 'No';
-        }
-        $this->four11 = $_POST['four11'];
-        if ($this->four11 != 'Yes') {
-            $this->four11 = 'No';
-        }
-        $this->four12 = $_POST['four12'];
-        if ($this->four12 != 'Yes') {
-            $this->four12 = 'No';
-        }
-        $this->four13 = $_POST['four13'];
-        if ($this->four13 != 'Yes') {
-            $this->four13 = 'No';
-        }
-        $this->four14 = $_POST['four14'];
-        if ($this->four14 != 'Yes') {
-            $this->four14 = 'No';
-        }
+        $this->photogallery = $this->Sanitize($_POST['photogallery']);
+        $this->contactform = $this->Sanitize($_POST['contactform']);
+        $this->calltoaction = $this->Sanitize($_POST['calltoaction']);
+        $this->googlemap = $this->Sanitize($_POST['googlemap']);
+        $this->timeline = $this->Sanitize($_POST['timeline']);
+        $this->menu = $this->Sanitize($_POST['menu']);
+        $this->buttons = $this->Sanitize($_POST['buttons']);
+        $this->pricetables = $this->Sanitize($_POST['pricetables']);
+        $this->youtube = $this->Sanitize($_POST['youtube']);
+        $this->team = $this->Sanitize($_POST['team']);
+        $this->reviews = $this->Sanitize($_POST['reviews']);
+        $this->socialmedia = $this->Sanitize($_POST['socialmedia']);
+        $this->videoheader = $this->Sanitize($_POST['videoheader']);
 
 
 

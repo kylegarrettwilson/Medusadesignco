@@ -68,6 +68,7 @@ if(isset($_POST['submitted']))
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
 
+
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 
@@ -361,24 +362,68 @@ if(isset($_POST['submitted']))
 
 
 
-            <div class='container text-center'>
-                <h2 style="margin: 0; padding: 0;"><label for='name' >Website Elements?</label></h2> <br><br>
+            <div class='container text-center style'>
+                <p style="text-align: center">
 
 
-                <input type="checkbox" name="four1" id='four1' value="yes"> About Me<br>
-                <input type="checkbox" name="four2" id='four2' value="yes"> Photo Gallery<br>
-                <input type="checkbox" name="four3" id='four3' value="yes"> Contact Us Form (Email)<br>
-                <input type="checkbox" name="four4" id='four4' value="yes"> Call To Action (Click Here! Download Now!)<br>
-                <input type="checkbox" name="four5" id='four5' value="yes"> Google Map Locator<br>
-                <input type="checkbox" name="four6" id='four6' value="yes"> Timeline of Business or Product<br>
-                <input type="checkbox" name="four7" id='four7' value="yes"> Separate Menu or Services Page<br>
-                <input type="checkbox" name="four8" id='four8' value="yes"> Buttons to External Links (Buy Buttons, Download, Link to Another Website)<br>
-                <input type="checkbox" name="four9" id='four9' value="yes"> Pricing Tables<br>
-                <input type="checkbox" name="four10" id='four10' value="yes"> Embedded YouTube Video<br>
-                <input type="checkbox" name="four11" id='four11' value="yes"> Team Section<br>
-                <input type="checkbox" name="four12" id='four12' value="yes"> Customer Reviews or Quotes<br>
-                <input type="checkbox" name="four13" id='four13' value="yes"> Links to Social Media Accounts<br>
-                <input type="checkbox" name="four14" id='four14' value="yes"> Autoplay Video Header<br>
+                    We offer <b>YES</b> or <b>NO</b>
+
+
+                </p> <br><br>
+
+
+                <label for='message' >Photo Gallery</label>
+                <input style="width:100px;" type="text" name="photogallery" id='photogallery' value='<?php echo $formproc->SafeDisplay('photogallery') ?>'><br><br>
+
+
+                <label for='message' >Contact Us Form (Email)</label>
+                <input style="width:100px;" type="text" name="contactform" id='contactform' value='<?php echo $formproc->SafeDisplay('contactform') ?>'><br><br>
+
+
+                <label for='message' >Call To Action</label>
+                <input style="width:100px;" type="text" name="calltoaction" id='calltoaction' value='<?php echo $formproc->SafeDisplay('calltoaction') ?>'><br><br>
+
+
+                <label for='message' >Google Map Locator</label>
+                <input style="width:100px;" type="text" name="googlemap" id='googlemap' value='<?php echo $formproc->SafeDisplay('googlemap') ?>'><br><br>
+
+
+                <label for='message' >Timeline of Business or Product</label>
+                <input style="width:100px;" type="text" name="timeline" id='timeline' value='<?php echo $formproc->SafeDisplay('timeline') ?>'><br><br>
+
+
+                <label for='message' >Separate Menu or Services Page</label>
+                <input style="width:100px;" type="text" name="menu" id='menu' value='<?php echo $formproc->SafeDisplay('menu') ?>'><br><br>
+
+
+                <label for='message' >Buttons to External Links</label>
+                <input style="width:100px;" type="text" name="buttons" id='buttons' value='<?php echo $formproc->SafeDisplay('buttons') ?>'><br><br>
+
+
+                <label for='message' >Pricing Tables</label>
+                <input style="width:100px;" type="text" name="pricetables" id='pricetables' value='<?php echo $formproc->SafeDisplay('pricetables') ?>'><br><br>
+
+
+                <label for='message' >Embedded YouTube Video</label>
+                <input style="width:100px;" type="text" name="youtube" id='youtube' value='<?php echo $formproc->SafeDisplay('youtube') ?>'><br><br>
+
+
+                <label for='message' >Team Section</label>
+                <input style="width:100px;" type="text" name="team" id='team' value='<?php echo $formproc->SafeDisplay('team') ?>'><br><br>
+
+
+                <label for='message' >Customer Reviews or Quotes</label>
+                <input style="width:100px;" type="text" name="reviews" id='reviews' value='<?php echo $formproc->SafeDisplay('reviews') ?>'><br><br>
+
+
+                <label for='message' >Links to Social Media Accounts</label>
+                <input style="width:100px;" type="text" name="socialmedia" id='socialmedia' value='<?php echo $formproc->SafeDisplay('socialmedia') ?>'><br><br>
+
+
+                <label for='message' >Autoplay Video Header</label>
+                <input style="width:100px;" type="text" name="videoheader" id='videoheader' value='<?php echo $formproc->SafeDisplay('videoheader') ?>'><br><br>
+
+
                 <span id='contactus_email_errorloc' class='error'></span>
 
 
@@ -388,29 +433,21 @@ if(isset($_POST['submitted']))
 
 
 
-            <br>
-
-
-            <div class='container'>
+            <div class='container' style="margin-top: 40px;">
                 <label for='message' >Will your site use existing marketing content? (eg: art, photos, logo)</label><br><br>
 
-                <input type="radio" name="five" id='five' value="<?php echo $formproc->SafeDisplay('five') ?>"> Yes, I do have existing marketing material that I would like to use.<br>
-                <input type="radio" name="five" id='five' value="<?php echo $formproc->SafeDisplay('five') ?>"> No, I do not have existing marketing material.<br>
-                <input type="radio" name="five" id='five' value="<?php echo $formproc->SafeDisplay('five') ?>"> I want the developer to call and discuss options about using marketing material.
-                <span id='contactus_email_errorloc' class='error'></span>
+                <input type='text' name='five' id='five' value='<?php echo $formproc->SafeDisplay('five') ?>' maxlength="50" /><br/>
+                <span id='contactus_name_errorloc' class='error'></span>
 
             </div>
 
 
             <br>
             <div class='container'>
-                <label for='email' >Are you comfortable utilizing stock photos for your website?<br> All stock photos that are incorporated by BRM on your site will be licensed for you at no extra charge.</label><br/>
+                <label for='email' >Are you comfortable utilizing stock photos for your website?<br> All stock photos that are incorporated by BRM on your site will be licensed for you at no extra charge.</label><br><br>
 
-                <br>
-                <input type="radio" name="six" id='six' value="<?php echo $formproc->SafeDisplay('six') ?>"> Yes, I am comfortable using stock photos.<br>
-                <input type="radio" name="six" id='six' value="<?php echo $formproc->SafeDisplay('six') ?>"> No, I do not want to use stock photos.<br>
-                <input type="radio" name="six" id='six' value="<?php echo $formproc->SafeDisplay('six') ?>"> I want the developer to call and discuss options about using stock photos
-                <span id='contactus_email_errorloc' class='error'></span>
+                <input type='text' name='six' id='six' value='<?php echo $formproc->SafeDisplay('six') ?>' maxlength="50" /><br/>
+                <span id='contactus_name_errorloc' class='error'></span>
 
 
             </div>
