@@ -57,7 +57,22 @@ class FGContactForm
     var $one;
     var $two;
     var $three;
-    var $four;
+
+    var $four1;
+    var $four2;
+    var $four3;
+    var $four4;
+    var $four5;
+    var $four6;
+    var $four7;
+    var $four8;
+    var $four9;
+    var $four10;
+    var $four11;
+    var $four12;
+    var $four13;
+    var $four14;
+
     var $five;
     var $six;
     var $seven;
@@ -294,10 +309,105 @@ class FGContactForm
     {
         return $this->three;
     }
-    function GetFour()
+
+
+
+
+
+    function GetFour1()
     {
-        return $this->four;
+
+        return $this->four1;
+
     }
+    function GetFour2()
+    {
+
+        return $this->four2;
+
+    }
+    function GetFour3()
+    {
+
+        return $this->four3;
+
+    }
+    function GetFour4()
+    {
+
+        return $this->four4;
+
+    }
+    function GetFour5()
+    {
+
+        return $this->four5;
+
+    }
+    function GetFour6()
+    {
+
+        return $this->four6;
+
+    }
+    function GetFour7()
+    {
+
+        return $this->four7;
+
+    }
+    function GetFour8()
+    {
+
+        return $this->four8;
+
+    }
+    function GetFour9()
+    {
+
+        return $this->four9;
+
+    }
+    function GetFour10()
+    {
+
+        return $this->four10;
+
+    }
+    function GetFour11()
+    {
+
+        return $this->four11;
+
+    }
+    function GetFour12()
+    {
+
+        return $this->four12;
+
+    }
+    function GetFour13()
+    {
+
+        return $this->four13;
+
+    }
+    function GetFour14()
+    {
+
+        return $this->four14;
+
+    }
+
+
+
+
+
+
+
+
+
+
     function GetFive()
     {
         return $this->five;
@@ -894,9 +1004,81 @@ class FGContactForm
 
 
         $this->three = $this->Sanitize($_POST['three']);
-        $this->four = $this->Sanitize($_POST['four']);
+
+
+
+
+        $this->four1 = $_POST['four1'];
+        if ($this->four1 != 'Yes') {
+            $this->four1 = 'No';
+        }
+        $this->four2 = $_POST['four2'];
+        if ($this->four2 != 'Yes') {
+            $this->four2 = 'No';
+        }
+        $this->four3 = $_POST['four3'];
+        if ($this->four3 != 'Yes') {
+            $this->four3 = 'No';
+        }
+        $this->four4 = $_POST['four4'];
+        if ($this->four4 != 'Yes') {
+            $this->four4 = 'No';
+        }
+        $this->four5 = $_POST['four5'];
+        if ($this->four5 != 'Yes') {
+            $this->four5 = 'No';
+        }
+        $this->four6 = $_POST['four6'];
+        if ($this->four6 != 'Yes') {
+            $this->four6 = 'No';
+        }
+        $this->four7 = $_POST['four7'];
+        if ($this->four7 != 'Yes') {
+            $this->four7 = 'No';
+        }
+        $this->four8 = $_POST['four8'];
+        if ($this->four8 != 'Yes') {
+            $this->four8 = 'No';
+        }
+        $this->four9 = $_POST['four9'];
+        if ($this->four9 != 'Yes') {
+            $this->four9 = 'No';
+        }
+        $this->four10 = $_POST['four10'];
+        if ($this->four10 != 'Yes') {
+            $this->four10 = 'No';
+        }
+        $this->four11 = $_POST['four11'];
+        if ($this->four11 != 'Yes') {
+            $this->four11 = 'No';
+        }
+        $this->four12 = $_POST['four12'];
+        if ($this->four12 != 'Yes') {
+            $this->four12 = 'No';
+        }
+        $this->four13 = $_POST['four13'];
+        if ($this->four13 != 'Yes') {
+            $this->four13 = 'No';
+        }
+        $this->four14 = $_POST['four14'];
+        if ($this->four14 != 'Yes') {
+            $this->four14 = 'No';
+        }
+
+
+
+
+
+
+
+
+
+
+
         $this->five = $this->Sanitize($_POST['five']);
         $this->six = $this->Sanitize($_POST['six']);
+
+
 
 
         $this->seven = $this->StripSlashes($_POST['seven']);

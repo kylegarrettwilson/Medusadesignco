@@ -365,20 +365,20 @@ if(isset($_POST['submitted']))
                 <h2 style="margin: 0; padding: 0;"><label for='name' >Website Elements?</label></h2> <br><br>
 
 
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> About Me<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Photo Gallery<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Contact Us Form (Email)<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Call To Action (Click Here! Download Now!)<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Google Map Locator<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Timeline of Business or Product<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Separate Menu or Services Page<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Buttons to External Links (Buy Buttons, Download, Link to Another Website)<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Pricing Tables<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Embedded YouTube Video<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Team Section<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Customer Reviews or Quotes<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Links to Social Media Accounts<br>
-                <input type="checkbox" name="four" id='four' value="<?php echo $formproc->SafeDisplay('four') ?>"> Autoplay Video Header<br>
+                <input type="checkbox" name="four1" id='four1' value="yes"> About Me<br>
+                <input type="checkbox" name="four2" id='four2' value="yes"> Photo Gallery<br>
+                <input type="checkbox" name="four3" id='four3' value="yes"> Contact Us Form (Email)<br>
+                <input type="checkbox" name="four4" id='four4' value="yes"> Call To Action (Click Here! Download Now!)<br>
+                <input type="checkbox" name="four5" id='four5' value="yes"> Google Map Locator<br>
+                <input type="checkbox" name="four6" id='four6' value="yes"> Timeline of Business or Product<br>
+                <input type="checkbox" name="four7" id='four7' value="yes"> Separate Menu or Services Page<br>
+                <input type="checkbox" name="four8" id='four8' value="yes"> Buttons to External Links (Buy Buttons, Download, Link to Another Website)<br>
+                <input type="checkbox" name="four9" id='four9' value="yes"> Pricing Tables<br>
+                <input type="checkbox" name="four10" id='four10' value="yes"> Embedded YouTube Video<br>
+                <input type="checkbox" name="four11" id='four11' value="yes"> Team Section<br>
+                <input type="checkbox" name="four12" id='four12' value="yes"> Customer Reviews or Quotes<br>
+                <input type="checkbox" name="four13" id='four13' value="yes"> Links to Social Media Accounts<br>
+                <input type="checkbox" name="four14" id='four14' value="yes"> Autoplay Video Header<br>
                 <span id='contactus_email_errorloc' class='error'></span>
 
 
