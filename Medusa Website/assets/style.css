@@ -95,7 +95,6 @@ p{color: white; font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	z-index: -100;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
-	background: url(../images/header.jpg) no-repeat;
 	background-size: cover;
 }
 
