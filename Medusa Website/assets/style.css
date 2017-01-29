@@ -24,7 +24,10 @@ h3{color: white; font:300 2em Roboto,Arial,Helvetica;margin:2em 0 1em 0;}
 h4{color: white; font:300 1.5em Roboto,Arial,Helvetica;margin-bottom: 1em;}
 h4 i{color: white; margin-right: 0.5em;}
 
-p{color: white; font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
+p{color: white; font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;
+
+	font-weight: 600;
+}
 
 .spacer{padding: 6em 0;}
 

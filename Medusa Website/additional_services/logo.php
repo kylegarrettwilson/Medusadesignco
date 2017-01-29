@@ -280,7 +280,7 @@
         <h3>Need a logo? No problem!</h3>
 
         <p>
-            BRM can help your business leave a lasting impression on customers through our logo design service.
+            Medusa can help your business leave a lasting impression on customers through our logo design service.
             Let us help you by creating a simplistic, clean logo that shares your business’ brand at first glance.
             We use Adobe Illustrator to create unique, high quality, and versatile logos that can be used for all
             your business’ needs. All files for your logo will be emailed to you for use in other media. <strong> We strongly recommend
@@ -315,7 +315,7 @@
 <div id="contact" class="spacer">
     <!--Contact Starts-->
     <div class="container contactform center">
-        <h2 class="text-center  wowload fadeInUp">Tell Us Your Idea!</h2>
+        <h2 class="text-center  wowload fadeInUp">Interested? Contact Us Here!</h2>
         <div class="row wowload fadeInLeftBig">
             <div class="col-sm-6 col-sm-offset-3 col-xs-12">
 

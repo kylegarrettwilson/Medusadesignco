@@ -146,7 +146,7 @@
 
 
 
-    <h2>Need to change something on your BRM website? <a style="text-decoration: none" class="fa fa-envelope fa-1x" href="mailto:bootstraproadmapsales@gmail.com"> Email us </a> with what you need!</h2><br>
+    <h2>Need to change something on your Medusa Website? <a style="text-decoration: none" class="fa fa-envelope fa-1x" href="mailto:bootstraproadmapsales@gmail.com"> Email us </a> with what you need!</h2><br>
 
 
     <h2> <i class="fa fa-dollar fa-1x"></i>75/hr if you are on the <u>Essentials Plan</u></h2>
@@ -160,7 +160,7 @@
         <h3>What to include in your email request</h3>
 
         <p>
-            In order to help BRM fully understand the scale and scope of your BRM Website Maintenance needs,
+            In order to help us fully understand the scale and scope of your Medusa Website Maintenance needs,
             please make sure to include the following information in your email request:
         </p>
 
@@ -176,7 +176,7 @@
         </ul>
 
         <p>
-            Once we have received and reviewed your request, BRM will contact you with a price quote for the maintenance requested and will provide an anticipated project completion timeline for your review.
+            Once we have received and reviewed your request, Medusa will contact you with a price quote for the maintenance requested and will provide an anticipated project completion timeline for your review.
         </p>
 
 
@@ -222,7 +222,7 @@
 <div id="contact" class="spacer">
     <!--Contact Starts-->
     <div class="container contactform center">
-        <h2 class="text-center  wowload fadeInUp">Tell Us Your Idea!</h2>
+        <h2 class="text-center  wowload fadeInUp">Interested? Contact Us Here!</h2>
         <div class="row wowload fadeInLeftBig">
             <div class="col-sm-6 col-sm-offset-3 col-xs-12">
 

@@ -153,7 +153,7 @@
             <h3>Don't see a template that fits just right? Not a problem! Lets Collaborate!</h3><br>
 
             <p>
-                BRM is first and foremost a company of web developers who simply love to create stunning website designs.
+                Medusa is first and foremost a company of web developers who simply love to create stunning website designs.
                 If you do not see a template that fits your needs, we do offer a custom coding option in which we create
                 the website together with you. At this point in time, we do not offer any e-commerce websites, however
                 that will be a service in the near future. So, if you need a webpage that operates on an e-commerce basis,
@@ -195,7 +195,7 @@
     <div id="contact" class="spacer">
         <!--Contact Starts-->
         <div class="container contactform center">
-            <h2 class="text-center  wowload fadeInUp">Tell Us Your Idea!</h2>
+            <h2 class="text-center  wowload fadeInUp">Interested? Contact Us Here!</h2>
             <div class="row wowload fadeInLeftBig">
                 <div class="col-sm-6 col-sm-offset-3 col-xs-12">
 

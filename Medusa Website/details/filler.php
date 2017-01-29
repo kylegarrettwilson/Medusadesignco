@@ -62,7 +62,7 @@
                 functions properly with any screen size. Our cutting-edge designs utilize the most current landing
                 page User Experience (UX) and User Interaction (UI) technologies. With the advent of the smartphone,
                 the ability to scroll and view all website content on one page is invaluable to your business and
-                to your customer. Let BRM launch your small business into the realm of artistically professional websites.
+                to your customer. Let Medusa launch your small business into the realm of artistically professional websites.
             </p>
         </article>";
 
@@ -145,7 +145,7 @@
            echo "<h1 class='text-center' style='margin-top: 150px;'>Design Details</h1>
                     
                   
-                    <h1><a style='margin-top: 15px; margin-bottom: 15px;' class=\"btn btn-lg btn-info center-block\" href=\"../edison/edison.html\">Personalized Construction</a></h1>
+                    <h1><a style='margin-top: 15px; margin-bottom: 15px;' class=\"btn btn-lg btn-info center-block\" href=\"../edison/edison.html\">Personalized Construction Form</a></h1>
                     
                     
 
@@ -153,18 +153,18 @@
                 <p>
                     The days of cluttered, multi-paged websites are going in the same direction as parachute pants and floppy
                     disks: extinct.  There is a massive push by users to experience clean websites that do not overwhelm them
-                    with tacky colors and flashing banners. As the population experiences more and more saturation with advertisements,
+                    with tacky colors, flashing banners and annoying popups. As the population experiences more and more saturation with advertisements,
                     it is becoming increasingly important to grab the customer’s attention upon the first click to your website.
-                    The way BRM approaches this changing digital environment is by building large images near the top of the page,
+                    The way Medusa approaches this changing digital environment is by building large images near the top of the page,
                     which help to visually display what the business is about at first glance; this aids with both brand
                     recognition and helps you stand out from competitors. We also utilize techniques that help direct the
                     users’ sight through the use of smooth animations and photo galleries. It is important to balance the
                     website visually by mixing use of the content and image to ensure that one does not overshadow the other.
                     Many of our designs use section headers that are accompanied by visual queues, such as word art, to help
-                    the user quickly find the information they are wanting.  At BRM, we aim to ensure that the content of
+                    the user quickly find the information they are wanting.  At Medusa Design Co., we aim to ensure that the content of
                     your website is displayed in a neat and orderly fashion, making it both appealing and easy to gather
                     needed information for the customer.
-                    <a href=\"edison/index.html\"><b>HERE</a> is the Roadmap that you will receive a link to after purchase.</b>
+                    <a href=\"../edison/edison.html\" target=\"_blank\"><b>HERE</a> is the Personalized Construction Form (PCF) that you will receive a link to after purchase.</b>
          
                 </p>
 
@@ -177,13 +177,13 @@
 
                 <article>
                     <p>
-                        Usability testing is a critical step in the web design process. The main disciplines that BRM aims
+                        Usability testing is a critical step in the web design process. The main disciplines that Medusa aims
                         to test are learnability and efficiency. Learnability is how easy it is for a new user to accomplish
                         tasks the first time they visit your site. Efficiency is how quickly users can complete tasks on your
                         site after they familiarize themselves with its use. The reason these two user interactions (UI) are
                         so important is because people will go to the next site if the first site they visit is not usable or
                         cannot be quickly be understood. Your business can have the most beautiful website in the world, but
-                        people will leave immediately if they are unable to figure out how to navigate your site quickly. BRM
+                        people will leave immediately if they are unable to figure out how to navigate your site quickly. We
                         focuses on providing designs that are able to adapt the view of the website to the screen size of the
                         user’s device to aid in the website’s ease of use across devices.
                     </p>
@@ -229,10 +229,10 @@
     <div id=\"me\"  class=\"container spacer about\">
         <hr>
         <h2 class=\"text-center wowload fadeInUp\">How It Works</h2>
-        <div class=\"row\">
+        <div style='margin-top: 40px;' class=\"row\">
             <div class=\"col-sm-6 wowload fadeInLeft\">
 
-                <h4><i class=\"fa fa-arrow-right\"></i> Step One </h4>
+                <h4><i style='color:black;' class=\"fa fa-arrow-right\"></i> Step One </h4>
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu odio ullamcorper
@@ -257,7 +257,7 @@
             <div class=\"col-sm-6 wowload fadeInRight\">
 
 
-                <h4><i class=\"fa fa-arrow-right\"></i> Step Two </h4>
+                <h4><i style='color:black;' class=\"fa fa-arrow-right\"></i> Step Two </h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu odio ullamcorper
                     ante faucibus venenatis.Aenean varius vulputate eros nec efficitur. Aliquam erat
@@ -278,7 +278,7 @@
 
             <div class=\"col-sm-6 wowload fadeInLeft\">
 
-                <h4><i class=\"fa fa-arrow-right\"></i> Step Three </h4>
+                <h4><i style='color:black;' class=\"fa fa-arrow-right\"></i> Step Three </h4>
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu odio ullamcorper
@@ -303,7 +303,7 @@
             <div class=\"col-sm-6 wowload fadeInRight\">
 
 
-                <h4><i class=\"fa fa-arrow-right\"></i> Step Four </h4>
+                <h4><i style='color:black;' class=\"fa fa-arrow-right\"></i> Step Four </h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu odio ullamcorper
                     ante faucibus venenatis.Aenean varius vulputate eros nec efficitur. Aliquam erat

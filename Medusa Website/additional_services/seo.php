@@ -163,8 +163,8 @@
         </p>
 
         <p>
-            The SEO discipline that BRM offers in this package is
-            strictly code based; meaning we will write your BRM code is such a way that it will have a higher
+            The SEO discipline that we offer in this package is
+            strictly code based; meaning we will write your Medusa Website code is such a way that it will have a higher
             probability of a search engine finding it quickly. Is this worth it? Research shows that most users
             do not click on search results after the first page. This is why it is important to try and fight
             for the first results page positioning. <strong> We strongly recommend
@@ -200,7 +200,7 @@
 <div id="contact" class="spacer">
     <!--Contact Starts-->
     <div class="container contactform center">
-        <h2 class="text-center  wowload fadeInUp">Tell Us Your Idea!</h2>
+        <h2 class="text-center  wowload fadeInUp">Interested? Contact Us Here!</h2>
         <div class="row wowload fadeInLeftBig">
             <div class="col-sm-6 col-sm-offset-3 col-xs-12">
 
