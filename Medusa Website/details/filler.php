@@ -33,6 +33,8 @@
     <link rel="stylesheet" href="../assets/style.css">
 
 
+
+
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -145,7 +147,7 @@
            echo "<h1 class='text-center' style='margin-top: 150px;'>Design Details</h1>
                     
                   
-                    <h1><a style='margin-top: 15px; margin-bottom: 15px;' class=\"btn btn-lg btn-info center-block\" href=\"../edison/edison.html\">Personalized Construction Form</a></h1>
+                    <h1><a style='margin-top: 15px; margin-bottom: 15px;' class=\"btn btn-lg btn-info center-block\" href=\"../edison/edison.html\">Personalized Form</a></h1>
                     
                     
 

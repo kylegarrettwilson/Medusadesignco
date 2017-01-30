@@ -17,3 +17,36 @@
 .buffer{
     margin-bottom: 200px;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 770px) {
+
+
+
+
+    .btn{
+
+        margin-top: 12px;
+
+    }
+
+
+    video{
+        display: none;
+    }
+
+
+
+
+
+}
+

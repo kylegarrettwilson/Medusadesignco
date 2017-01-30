@@ -76,3 +76,81 @@ p{
     font-size: 1.2em;
     font-weight: 400;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 770px) {
+
+
+
+    video{
+        display: none;
+    }
+
+
+    #menu{
+        margin-top: 60%;
+    }
+
+
+    #home{
+
+        background-color: black;
+
+    }
+
+
+    .banner .caption{position: absolute;top: 0;left:0; right: 0; bottom: 0;background: white;
+
+
+    }
+
+
+    #home img{
+        content: url(../images/logo_black.png);
+    }
+
+
+    .btn{
+        width: 100%;
+        font-size: .35em;
+    }
+
+
+    #usability h2{
+        text-align: center;
+    }
+
+    #retain h2{
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

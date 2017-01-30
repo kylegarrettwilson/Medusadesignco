@@ -101,7 +101,7 @@
     <div class="banner">
 
 
-        <video autoplay loop muted poster="../images/header.jpg" id="background">
+        <video autoplay loop muted poster="" id="background">
             <source src="../images/medusa.mp4" type="video/mp4">
         </video>
 
@@ -140,7 +140,7 @@
 
 
     <div id="menu">
-        <img class="center-block" src="../previews/images/cul_two.jpg" alt="Check out the live preview!">
+        <img class="center-block img-responsive" src="../previews/images/cul_two.jpg" alt="Check out the live preview!">
 
         <br><h1><a class="btn btn-lg btn-info center-block" href="../live/culinary/template_two/index.html">Live Example</a></h1>
 
@@ -213,6 +213,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+<!-- jquery -->
+<script src="../assets/jquery.js"></script>
+
+<!-- wow script -->
+<script src="../assets/wow/wow.min.js"></script>
+
+
+<!-- boostrap -->
+<script src="../assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+
+<!-- jquery mobile -->
+<script src="../assets/mobile/touchSwipe.min.js"></script>
+<script src="../assets/respond/respond.js"></script>
+
+<!-- gallery -->
+<script src="../assets/gallery/jquery.blueimp-gallery.min.js"></script>
+
+<!-- custom script -->
+<script src="../assets/script.js"></script>
 
 
 
