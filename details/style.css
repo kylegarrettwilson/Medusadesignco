@@ -1,0 +1,162 @@
+body{
+   background-color: white;
+}
+
+
+p, h1, h2, h3{
+    color: black;
+}
+
+.footer{
+    background-color: rgba(98, 104, 110, 0.2);
+}
+
+.footer a{
+    color: black;
+}
+
+.footer li{
+    color: black;
+}
+
+
+table{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+
+.table{
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+article{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.btn{
+    width: 40%;
+    border-radius: 10px;
+}
+
+
+
+.about{
+    margin-bottom: 300px;
+}
+
+
+
+#retain{
+    margin-top: 100px;
+}
+
+
+
+#menu{
+    margin-bottom: 80px;
+}
+
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h4{
+    color: black;
+}
+
+
+p{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 770px) {
+
+
+
+    video{
+        display: none;
+    }
+
+
+    #menu{
+        margin-top: 60%;
+    }
+
+
+    #home{
+
+        background-color: black;
+
+    }
+
+
+    .banner .caption{position: absolute;top: 0;left:0; right: 0; bottom: 0;background: white;
+
+
+    }
+
+
+    #home img{
+        content: url(../images/logo_black.png);
+    }
+
+
+    .btn{
+        width: 100%;
+        font-size: .35em;
+    }
+
+
+    #usability h2{
+        text-align: center;
+    }
+
+    #retain h2{
+        text-align: center;
+    }
+
+
+
+    .nav li{
+        font-size: 2em;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

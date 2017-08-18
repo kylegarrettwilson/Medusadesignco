@@ -1,0 +1,134 @@
+#menu{
+    margin-top: 0;
+    padding-bottom: 100px;
+}
+
+h1{
+    font-size: 5em;
+}
+
+
+
+#main{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+#checkout{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+p{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+
+#contact{
+    padding-bottom: 300px;
+}
+
+
+#main ul{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 15px;
+
+}
+
+#main li{
+    padding-bottom: 15px;
+}
+
+
+#product-component-e0b60cd2f33{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 770px) {
+    body{font:300 12px/12px Roboto,Arial,Helvetica;}
+    .navbar-nav > li > a {line-height: 1em;}
+    .navbar-brand{padding: 7px;}
+    .navbar-brand img{height: 37px;}
+    .navbar-toggle{margin-top: 12px;}
+
+    .banner .caption,.carousel-caption,.carousel-control,.carousel-indicators{ margin-bottom: 0; padding: 0; height: 200px;}
+
+    h2.text-center{text-align: left;font-size: 1.7em;}
+    h4 {font: 300 1.2em Roboto,Arial,Helvetica;}
+    #partners h2{padding: 0 1em;}
+    #home {padding-top: 5em;}
+
+
+
+
+    .highlight-info .overlay{padding-bottom: 2em;}
+
+    .grid.team div{margin: 0;padding: 0;}
+    figure.effect-chico figcaption {padding: 1.5em;}
+    #map{height: 200px;}
+    .footer{padding-bottom: 2em;}
+
+
+
+    #header_background{
+        display: none;
+    }
+
+
+    #menu{
+        margin-top: 250px;
+
+        margin-bottom: 0;
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
+
+    #main{
+        width: 90%;
+    }
+
+    #main ul>li{
+
+
+    }
+
+
+
+    .nav li{
+        font-size: 2em;
+    }
+
+
+}
+
+
+
+
+
+
+

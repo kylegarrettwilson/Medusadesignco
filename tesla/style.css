@@ -1,0 +1,16 @@
+@media (max-width: 770px) {
+
+.banner .caption{
+    background: white;
+}
+
+
+    .caption img{
+        content: url("../images/logo_black.png");
+    }
+
+
+
+
+
+}
